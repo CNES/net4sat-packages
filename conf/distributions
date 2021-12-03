@@ -1,0 +1,8 @@
+Origin: github.com/CNES/net4stat-packages.git
+Label: APT Repository
+Codename: focal
+Architectures: amd64
+Components: stable dev testing
+Description: Collection of metrology, testing and simulation tools
+SignWith: yes
+Pull: focal
