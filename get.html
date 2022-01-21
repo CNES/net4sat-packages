@@ -73,7 +73,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="page-scroll">
+            <li class="page-scroll active">
               <a href="get.html"><p class="text-custom">Get started</p></a>
             </li>
             <li class="page-scroll">
@@ -91,75 +91,55 @@
     </nav>
 
 <section>
-  <!-- Main part -->
+  <!-- Page Content -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <h1 class="page-header">The Net4sat forge</h1>
-      </div>
+        <div class="col-lg-12">
+          <h1 class="page-header">Get started</h1>
+        </div>
     </div>
   </div>
   <div class="page-wrap">
-    <div class="container">
+     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Welcome on Net4sat Development Community.</p>
-          <p>Net4sat is a software development platform owned by CNES which provides means for network research on satellite communications. 
-             This web site is the portal of the different components of the forge. 
-             <center>
-              <img class="img_hover" src="img/cnes_logo_small.png" style="max-width:30%" onclick="document.location.href = 'https://cnes.fr/en'"/>
-            </center>
+          <h2 id="home">Account creation</h2>
+          <p>Before logging on to the forge, a net4sat account is needed. Account creation can be requested by
+            sending an email to
+            <a href="mailto:support _AT_ net4sat _DOT_ org" title="Send email to support">support</a>
+            with the following informations :
+            <ul>
+              <li> Name
+              <li> Contact email
+              <li> Prefered login
+              <li> Supporting Organization (if applicable)
+            </ul>
           </p>
-          <h2 class="overview" id="intro">Net4sat Overview</h2>
-          <p>Net4sat provides an easy and flexible way to develop new projects on integration of satellite telecommunications into terrestrial networks.</p>
-          <p>Go and see the open source projects of Net4sat:
-          <a href="https://forge.net4sat.org/explore/" title="Public Net4sat projects" hreflang="en">https://forge.net4sat.org/explore/</a></p>
-          <h2 class="overview" id="intro">Net4sat Organization</h2>
-          <p>The forge contains mainly:</p>
-          <ul>
-            <li>A Gitlab forge for git development project:
-              <a href="https://forge.net4sat.org/" title="Net4sat forge" hreflang="en">https://forge.net4sat.org/</a>
-            </li>
-            <li>A Jenkins continuous integration server:
-              <a href="https://forge.net4sat.org/ci" title="Net4sat Jenkins Tool" hreflang="en">https://forge.net4sat.org/ci/</a>
-            </li>
-            <li>A LDAP server for authentification:
-              <a href="https://forge.net4sat.org/ldap/" title="Net4sat LDAP" hreflang="en">https://forge.net4sat.org/ldap/</a>
-            </li>
-            <li>A wiki for documentation:
-              <a href="https://wiki.net4sat.org/" title="Net4sat Wiki" hreflang="en">https://wiki.net4sat.org/</a>
-            </li>
-          </ul>
-          <h2 class="overview" id="goal">Net4sat Goal</h2>
-          <p>The major key drivers for this platform are the following:</p>
-          <ul>
-            <li>Simply operable</li>
-            <li>Simplicity in design – allowing fast development</li>
-            <li>Flexibility – allowing to simply adapt to specific needs</li>
-            <li>Upgradeability – allowing to simply add specific functionalities</li>
-            <li>Public and Neutral</li>
-          </ul>
-          <h2 class="contributors" id="presentation">Net4sat Contributors</h2>
-          <p>Main Net4sat contributors and users are:</p>
-          <ul>
-            <li>CNES</li>
-            <li>Thales Alenia Space</li>
-            <li>Airbus Defense and Space</li>
-            <li>Viveris Technologies</li>
-            <li>Silicom</li>
-            <li>Objectif Libre</li>
-            <li>TeSA</li>
-          </ul>
-          <h2 class="examples" id="presentation">Some projects hosted on Net4sat</h2>
-          <ul>
-            <li><a href="https://opensand.org/" title="OpenSAND" hreflang="en">OpenSAND</a>, an easy and flexible way to emulate an end-to-end satellite communication system</li>
-            <li><a href="https://www.openbach.org/" title="OpenBACH" hreflang="en">OpenBACH</a>, an open source benchmark platform for performing network, transport, services tests and collect tests data</li>
-            <li><a href="https://www.sns3.org/" title="SNS3" hreflang="en">SNS3</a>, a satellite network extension to Network Simulator 3 (ns-3) platform</li>
-          </ul>
-          <p>Other projects include a TCP proxy
-          (<a href="https://wiki.net4sat.org/doku.php?id=pepsal:index" title="PEPSal" hreflang="en">PEPSal</a>)
-          and a software that intermittently releases the packet on the interface, like a dam
-          (<a href="https://wiki.net4sat.org/doku.php?id=dambox:index" title="DamBOX" hreflang="en">DamBOX</a>).</p> 
+          <p>You should receive an email on your contact email with login credentials. As this procedure
+          is manual, it might take a few days, we apologize in advance in case of (network) delay.</p>
+          <h2 id="home">Account management</h2>
+          <p>Access to acccount management is provided through
+          <a href="https://forge.net4sat.org/ldap" title="Gitlab SSH Keys"hreflang="en">ldap</a> 
+          interface. Password can be changed by clicking
+          <a href="https://forge.net4sat.org/ldap/" title="Gitlab SSH Keys"hreflang="en">"I forgot my password"</a>
+          and indicating the account email address.</p>
+          <h2 id="home">Access to net4sat gitlab forge</h2>
+          <p>Access to the forge is:
+          <a href="https://forge.net4sat.org/" title="Net4sat forge" hreflang="en">https://forge.net4sat.org/</a>
+          </p>
+          <p>By default, you should be granted access to all publics projets hosted on the forge. If you
+          require access to a specific project, please contact
+          <a href="mailto:support _AT_ net4sat _DOT_ org" title="Send email to support">support</a>,
+          indicating the name of the project and your login. You can also create your own new project, on
+          which you will be able to manage access rights (projects are private by default).</p>
+          <p>A Gitlab basics tutorial is provided
+          <a href="https://forge.net4sat.org/help/gitlab-basics/README.md" title="Gitlab basics" hreflang="en">Gitlab basics</a>
+          .</p>
+          <p>Be aware that using git with SSH requires uploading a SSH key, as indicated in:
+          <a href="https://forge.net4sat.org/help/gitlab-basics/create-your-ssh-keys.md" title="Gitlab SSH Keys" hreflang="en">Gitlab SSH key upload</a>
+          .</p>
+          <h2 id="home">Net4sat support</h2>
+          <p>Any question or support issue should be send to <b>support@net4sat.org</b>.</p>
         </div>
       </div>
     </div>
