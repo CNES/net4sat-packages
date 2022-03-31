@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: github.com/CNES/net4sat-packages
+Label: APT Repository
+Codename: focal
+Date: Thu, 07 Jul 2022 15:46:07 UTC
+Architectures: amd64
+Components: stable dev testing
+Description: Collection of metrology, testing and simulation tools
+MD5Sum:
+ da27187572713d35174471783d405f7b 24640 stable/binary-amd64/Packages
+ e7cd0e84b49d15f4dc46443896d65887 6078 stable/binary-amd64/Packages.gz
+ 00e7513ae0896408bfcd00357ad5affe 168 stable/binary-amd64/Release
+ f4e354aa40ab7317a301a5900880c35c 20967 dev/binary-amd64/Packages
+ f862a48850e0191963172c2495ea1ad3 5016 dev/binary-amd64/Packages.gz
+ eb6b105327b9dd2fd3c19b6f15bb6542 165 dev/binary-amd64/Release
+ e69f16b5de625f88d5ca70478cf402dc 21408 testing/binary-amd64/Packages
+ f0d62d295fd0719e7c444afad0bf2149 4921 testing/binary-amd64/Packages.gz
+ 60f476c95648c0432fbeec811401895f 169 testing/binary-amd64/Release
+SHA1:
+ 7c3f2af864d8800b275e5db048f668155cc51dfd 24640 stable/binary-amd64/Packages
+ 0ef3de3cf70470d424e8d4464a05970293e56241 6078 stable/binary-amd64/Packages.gz
+ fe8ae3749e722fb454a6de667a475ac287bb6337 168 stable/binary-amd64/Release
+ 667caa939a2724271b0358602f83d67125ffd202 20967 dev/binary-amd64/Packages
+ ad079961a73e3aef12f831bea071e313d80f38a1 5016 dev/binary-amd64/Packages.gz
+ a18249be99afb4133a403f641d0720fa922730a3 165 dev/binary-amd64/Release
+ 60664e4ededcbad1ea5bc7881318f3366b0b3cee 21408 testing/binary-amd64/Packages
+ abb94723c7cc4c4b8bd6ec2ef8f27e4677471bb2 4921 testing/binary-amd64/Packages.gz
+ e390c864366429d061480f96fbfe34393064b087 169 testing/binary-amd64/Release
+SHA256:
+ 305b305b41d3553801ca151e21273c92c162e0eeb22e93643e0bfdae5728293f 24640 stable/binary-amd64/Packages
+ 0f5fded5d812f71fcd31a1496fdfe9d377efbb1b077ee19d73b001314f0b512c 6078 stable/binary-amd64/Packages.gz
+ 9f804def64af4c059aa756bec1b87b7b8ddea40623845e9f2c14aaba02313758 168 stable/binary-amd64/Release
+ 912c31deb26ce496701b5e85a44eac6361bfa785c6c6753b75d74f986e8e26b8 20967 dev/binary-amd64/Packages
+ 052489bad10499667de3fde69cc05ff18ebbbac5171189c7c5b610c5796d7083 5016 dev/binary-amd64/Packages.gz
+ b5cc270cf1061f8164fd0970c92c419f1b4f36a90a6df673caa3c4576b3d507b 165 dev/binary-amd64/Release
+ 55a82075154935da2ce64fccfd14dc5db855d310f22bbe9d2e8cf0b5f2f01abe 21408 testing/binary-amd64/Packages
+ 6315f0c8567e71338500862d42a09d63535ffe3fdc820cc16591dbf9865bb66b 4921 testing/binary-amd64/Packages.gz
+ c2399097f500f453451c1e2cab3d3481297a54c4f34ad9f24d36d59ec85df553 169 testing/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEExkMhO0pJDTEI9HSQTVvGinrPa2gFAmLG/78ACgkQTVvGinrP
+a2iLTg/9EF2d0V6DMly5YHIMP/+VufNtBi+rFNx+nlHX7nf+p3z1ZDPtCOz81/sk
+I9Dk8NJdHLemc1Rnx37tfsl+/Pa3ErdYQq0Vw5KAeRAE0VvtbRJ6tdHVm1cf6wrn
+8j32D76LAmqjn4I2+hI9c8w49xol+LdUVot6hcZZIJ5MJ8SxgGqiky2Mm7TS4Dgv
+Z8Q+XeZXcbMxuIOTWVXSGlzXqoYNSd18ODQjYe+bg/bvmoMIVI7onQzeOnXHJgDE
+XAlpSWV4Q/y82sQlWozyuF5BiF77Pj2R/k7MTiQYvLExe6HOWmgIgF3Hm5Hu+Jdb
+rMNH1q4QX9vBmrHMLWeNAEIdKEZg6o9C4CB+pwkkM8hwYoFpWqgDbTZ+xOgV9geb
+cYM+1irnLKOXX4M4ZWnfL0mR/gEy4eOxMqxPttKYsExBEdiQOyxW5nesmCwxfaT0
+GVulMG8yK8YD0j//qT1PAyuQCEEgwfiL2EqZabAq2DfIaigej+8glaoM4WXkM+7z
+DLl1+lnZKDgJaPs2QcpD+svLAEDGEjEs1fLIkxDvE3EoyTPW+FsRZNyqw9DLXzPn
+eVuMbTJVg1mcAofe/7h4aisDFBtfz2uROb6f+64ftzKDrYAuFQErk4ig7ywD0Mfn
+YMNi37JC8gXu+xXuhe3jpwDV2J/GpEKB6BwmJRf+dBG1cmbPYKM=
+=39yU
+-----END PGP SIGNATURE-----
