@@ -1,0 +1,8 @@
+Origin: github.com/CNES/net4sat-packages/jammy
+Label: APT Repository
+Codename: jammy
+Architectures: amd64
+Components: stable dev testing
+Description: Collection of metrology, testing and simulation tools
+SignWith: 4D5BC68A7ACF6B68
+Pull: jammy
