@@ -7,21 +7,32 @@ Usage
 -----
 
 This PPA is signed using a GPG key, so you'll first want to include
-[the signing key](gpg/net4sat.gpg.key) into your APT keyring. To do so, run the
-next command on your machine:
+[the signing key](gpg/net4sat.gpg.key) into your filesystem and instruct
+APT to use it to check packages from this repository. To do so, start by
+downloading the key to a path of your liking, for instance:
 
 ```
-curl -sS https://raw.githubusercontent.com/CNES/net4sat-packages/master/gpg/net4sat.gpg.key | sudo apt-key add -
+sudo mkdir /etc/apt/keyrings
+curl -sS https://raw.githubusercontent.com/CNES/net4sat-packages/master/gpg/net4sat.gpg.key | gpg --dearmor | sudo dd of=/etc/apt/keyrings/net4sat.gpg
 ```
 
-Next, you'll want to instruct APT that you want to fetch packages from this PPA:
+Next, you'll want to instruct APT that you want to fetch packages from
+this PPA. Run the following command to create the appropriate file in
+the `/etc/apt/sources.list.d/` folder:
 
 ```
-echo "deb https://raw.githubusercontent.com/CNES/net4sat-packages/master/ focal stable" | sudo tee /etc/apt/sources.list.d/github.net4sat.list
+cat << EOF | sudo tee /etc/apt/sources.list.d/github.net4sat.sources
+Types: deb
+URIs: https://raw.githubusercontent.com/CNES/net4sat-packages/master/focal/
+Suites: focal
+Components: stable
+Signed-By: /etc/apt/keyrings/net4sat.gpg
+EOF
 ```
 
-You can use the `dev` or `testing` component instead of `stable` depending on
-your needs.
+Change `focal` by `jammy` if appropriate.
+
+You can also use the `dev` or `testing` components instead of or alongside `stable` depending on your needs.
 
 Lastly, you want to populate APT's cache so it knows which packets are available from here:
 
