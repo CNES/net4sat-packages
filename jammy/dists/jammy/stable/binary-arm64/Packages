@@ -1,0 +1,52 @@
+Package: collect-agent
+Version: 1.4.2
+Architecture: arm64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 246
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), rsyslog, python3 (>= 3.5)
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/stable/c/collect-agent/collect-agent_1.4.2_arm64.deb
+Size: 82698
+SHA256: 42364f291cf83aa21c204b6a4473cf9153b784c885d53171957e5ed74f4c91a7
+SHA1: 9aa3dc22f2ddf64463c0b0db52de3cee86b6e070
+MD5sum: d19b0228acb4ba98699e39d45eeaabd5
+Description: OpenBACH collect-agent API
+
+Package: d-itg-openbach
+Version: 2.8.1-2-1
+Architecture: arm64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 376
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/stable/d/d-itg-openbach/d-itg-openbach_2.8.1-2-1_arm64.deb
+Size: 125414
+SHA256: aaa764d0c35f09a2ea766cd52ac945a85b021edc7759a7ff03cefcac3985e9a2
+SHA1: c7bdf138263187c4fd0ebc3e7ba802f43dc991f5
+MD5sum: c1e3a371b708c94fa1124b1f5a6bec35
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: iperf3-openbach
+Version: 3.10.1-1
+Architecture: arm64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 520
+Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0~~alpha1)
+Conflicts: iperf3, libiperf0
+Provides: iperf3, libiperf0
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/stable/i/iperf3-openbach/iperf3-openbach_3.10.1-1_arm64.deb
+Size: 126024
+SHA256: b250e06f268e9865694d9a4572188e4ebff9b900db1538f65ab32f7846adebf3
+SHA1: c1181f44718dec19d70b8e40a2b875f003137288
+MD5sum: 8b982c64de5f68180e7beab7082ef00a
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
