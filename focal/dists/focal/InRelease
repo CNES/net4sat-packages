@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: github.com/CNES/net4sat-packages/focal
 Label: APT Repository
 Codename: focal
-Date: Tue, 19 Dec 2023 15:33:52 UTC
+Date: Wed, 20 Dec 2023 15:45:56 UTC
 Architectures: amd64
 Components: stable dev testing
 Description: Collection of metrology, testing and simulation tools
@@ -12,8 +12,8 @@ MD5Sum:
  17f9c0178181ff87edb9b13a8359a902 24667 stable/binary-amd64/Packages
  d5e302c0fcbc307f448bd0ce0e2d1bb3 6071 stable/binary-amd64/Packages.gz
  f38abebb3fa4a96efb2c6fb8406b39a7 174 stable/binary-amd64/Release
- 5cf50b5e8243fa30cc4e8b20da8608ac 25778 dev/binary-amd64/Packages
- f49f5531c5c5806bce857b34359c01a6 6144 dev/binary-amd64/Packages.gz
+ ee2297835b8d47534b4ca49abad95c0a 25778 dev/binary-amd64/Packages
+ 9ed36dce98c434cb111e9277b213f884 6136 dev/binary-amd64/Packages.gz
  b40672023fff12c2db7e057d98764344 171 dev/binary-amd64/Release
  f9dfe3af5d33cb121b96ebb4f054788b 19592 testing/binary-amd64/Packages
  0e54c1890d7274fc145677dcf5a85456 4090 testing/binary-amd64/Packages.gz
@@ -22,8 +22,8 @@ SHA1:
  a30569f5a40f16a2055d258fe219f7f278a3a49a 24667 stable/binary-amd64/Packages
  7cbb171dd04b424008e2ef62709cc49bf0a9a557 6071 stable/binary-amd64/Packages.gz
  5a990e1161a8cc261a84d0c597d18ad4a8aefc06 174 stable/binary-amd64/Release
- c958238dc26f7aa38cb2cf7953c845a41225f1a3 25778 dev/binary-amd64/Packages
- 9b1388b10995c606060d29010c028367543104bd 6144 dev/binary-amd64/Packages.gz
+ 389854f5f2ffddff9293bc01ea306db67b27008a 25778 dev/binary-amd64/Packages
+ bb18b296022e0f5bb48aae30d0192f44dc7e9257 6136 dev/binary-amd64/Packages.gz
  75020e51e845b5f050d74ebc835b7f8d712cc0c1 171 dev/binary-amd64/Release
  9b75bddeec7ae975bc233b258a2affe8604dae69 19592 testing/binary-amd64/Packages
  19236d82c829f45002c6bccc22b32f87ab035a4e 4090 testing/binary-amd64/Packages.gz
@@ -32,25 +32,25 @@ SHA256:
  3b527082a2d82b79b4a42bced27da742d6aa326ec0c535936b90898770e4cd99 24667 stable/binary-amd64/Packages
  2abbd0c0619d2cae1a88b9c986ca7b103b6ba0469410016ceb4fb126f2c9cbb8 6071 stable/binary-amd64/Packages.gz
  c816afeeabe1e95bfe1e0e597549d789d58b5931b9cddf5acba4cea731d1b340 174 stable/binary-amd64/Release
- 6c0d545372b419b072db2558b94892085208acd194a8e08c21e91edcf4258f3a 25778 dev/binary-amd64/Packages
- 4c95fc27f799e9a6432427c2ca2ad63d357c4355a9fdd8d282fc978919c2345c 6144 dev/binary-amd64/Packages.gz
+ 3387058ff5a7ab33fca180322751752a482928ea93f53299319ff33acb907f3b 25778 dev/binary-amd64/Packages
+ b33dfd6880aaa77b18bd4ce8bb030175edd145a8ba7aaa8e11d012ff64f4eff9 6136 dev/binary-amd64/Packages.gz
  e53566d69a480fc4a2dcf271220605d261225795d486b51730dbbc7493c6f5e2 171 dev/binary-amd64/Release
  fef319d73b7fc295229f67a26e6c0b673244a8bfd12f0a1c85c3019b42881ad5 19592 testing/binary-amd64/Packages
  6550cee076c02ea4e635efc30955ddf46f171a3e61692e77bff0a961b8df0408 4090 testing/binary-amd64/Packages.gz
  65eab3f3337c7c7c592d173f6d2bd4c0e8174a63d42245fce8d9766f48a06bd3 175 testing/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEExkMhO0pJDTEI9HSQTVvGinrPa2gFAmWBt+AACgkQTVvGinrP
-a2h++A//S2NGbxLdqwO3IRX11T3Cp4UeoUy7mZdtMj2ISyXoaPn+wjfaFJAPnhVi
-p/Ic14Z1aFs/AoX00Uz7yhdSp0dowViDYeCQNejA0L2xuCgBf6azjYkYuvbLE2+3
-Npizb7OAdXUB1DF918FhSqUrzZlKUJwmOfssrrK1hvHhvJAx+hVy3cjtx7LjKJG0
-fdqGPtVy1WBO1srWF4+ieEm0IRImPx/YSWK0w49Po1oY0zzfGFmfmIlQfoMIHu91
-tX9OuuATwMjRg9KDeNbRACsEKJZRPHJ2Aht+r3b72EsBJhx/HR2TwN7brn/jOocO
-TD/sgQYV7NgeI6pWcA6qk3Rrz8eSjrNCb2zTBkDdejOLbhffeO775K7bUy0SsMj4
-iasf6s/0Gzn/sXU3SEzPLqFqe7Athb/S2IsqRdXkK3gNG9e1g9Kx9iXWBl13BoRZ
-WKUF1lVGtiPF6oefuDaHQY4Asba9VB7fFBlSCVEtg3ltrW+57Jfu6yktGFJovXm7
-LJxvpDgnOhHNjvpOKt+fKWUIadlvnBS88DrO3ekVj/xUPRXmZumtHnrtw4mDo3PZ
-oquOUzr2h500Fkn6snkPL+5+QhzkDlZjpovx+dRbb4lhiFNnPHbXdcunETQ6M4xs
-ErO8/+Q7oMiBHsZOgTSKcjRviXu74+xrxbweEsN8BP+nAHrl50U=
-=VOcz
+iQIzBAEBCgAdFiEExkMhO0pJDTEI9HSQTVvGinrPa2gFAmWDDDQACgkQTVvGinrP
+a2gdYg//fZV4AFoiN9FdYM9eIgmib7OXJsTh/aBtOXbbl5gtr49vpESzcq+sgaut
+jcvGfAi0gGURunB2c3PJUQhyjMvvMGHu9y6uc89kxbSm1G3vMCnkq8AicZ1Bk9Zj
+McSFtzsn84qs/kHpokjB0IPA2FxfKFEhixzqRhwuIL7IbytTIVQJR1+aGluYBzO9
+YZuk75RLYAhXG77pLwImi0eJofUoByGgBYG5sCKex3tbZZ5ff08mAg188lYSgI8+
+y7f9kEkbpseRS7QCfwBzb169G/3BxJqnQE7EppWC7tjtZ/ZgNiV0F85T+H1dSTpw
+I9TmnHQeebNjW5kzLmwadv7pB+QO826MqG/e0yJIUs5RKWDjLnv6rz5mwRhwppXP
+Ruhywd3rzl3jivnMW+zjQGAc4i+pv5XTUuGnSrcW6H6O9Q5acaNvxgtNrPTPHUEo
+UQCRWfNq9xc641GwqhToHe5ICY25buCJrpGEWq5+xXzHLzWkmsHz6UrUcbOnuHYm
+KO2Uplfz7YUGjMKc94Tr3ZVDJkUuXQ7z4mFEPBYqT8Z+mCt+LNVR5M0TFXz7dLvm
+Zqnh2l77p1VNkiQC29Oawy1OeR8Oy4mhgwlVQzf/ebPgA1JB5a9GkLmCCC44tOqX
+S78Y7BsyIipHD15cq0CgMc/RU1S9+gvoLRfuYx5SaWwMlZshR54=
+=9vbq
 -----END PGP SIGNATURE-----
