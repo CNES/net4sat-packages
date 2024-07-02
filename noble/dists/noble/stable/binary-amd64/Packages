@@ -56,3 +56,59 @@ Description: Generic Stream Encapsulation library and headers for Linux
   (or other Unix-compatible OS). The library can be used to add GSE
   encapsulation/deencapsulation capabilities to an application
 
+Package: librle
+Version: 1.7.4
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 68
+Depends: libc6 (>= 2.14)
+Priority: optional
+Section: libs
+Filename: pool/stable/libr/librle/librle_1.7.4_amd64.deb
+Size: 23272
+SHA256: 50a79165ab3f7e0b09c7b78b4d8bdb01e42fc0c7bb661b97434ccbfa93a452e3
+SHA1: 69b2f73fe6133a28fb6e8387557f8a9c3502c1dd
+MD5sum: 10941b895a16a1b91559c7fab73bf54a
+Description: Return Link Encapsulation library for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+
+Package: librle-dbgsym
+Package-Type: ddeb
+Source: librle
+Version: 1.7.4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 93
+Depends: librle (= 1.7.4)
+Breaks: librle-dbg (<< 1.7.4~)
+Replaces: librle-dbg (<< 1.7.4~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libr/librle/librle-dbgsym_1.7.4_amd64.deb
+Size: 65310
+SHA256: d181899b22cc1c7f6d5b1658eb03f69ac1d0b613c6545b3e047e14fe38bdf4b0
+SHA1: 4249621925d516724d22af989a50784c60af0ddf
+MD5sum: df92085b05ef633e5e965a6cc1145b7e
+Description: debug symbols for librle
+Build-Ids: 50236c886e1bbce2d138408264ed35f16756a55f
+
+Package: librle-dev
+Source: librle
+Version: 1.7.4
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 52
+Depends: librle (= 1.7.4)
+Priority: optional
+Section: libdevel
+Filename: pool/stable/libr/librle/librle-dev_1.7.4_amd64.deb
+Size: 9896
+SHA256: 2325933d88eaa864b9c5fb4eaad40db2f071bc2d0e747f50dcca0ae4a1a51545
+SHA1: 26cdeb1f8813a59989e17948af18d915ab1825ee
+MD5sum: 1e610b7f9031c6da0826dfe61ffb8632
+Description: Return Link Encapsulation library and headers for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+

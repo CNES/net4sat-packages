@@ -433,18 +433,18 @@ MD5sum: b814c0f2e41376b0d34382a76ecf2835
 Description: The runtime library and headers for OpenSAND
 
 Package: librle
-Version: 1.7.3
+Version: 1.7.4
 Architecture: amd64
 Maintainer: OpenSAND Maintainers <admin@opensand.org>
-Installed-Size: 67
+Installed-Size: 68
 Depends: libc6 (>= 2.14)
 Priority: optional
 Section: libs
-Filename: pool/stable/libr/librle/librle_1.7.3_amd64.deb
-Size: 23940
-SHA256: 87489f3025784045e2c1dd501bff729cb50d82aae954f239b7ee0660c3e7039f
-SHA1: 1310e3f9eef2941bbf797edf1fd9af5987914762
-MD5sum: 215c77bbd13965fcfd10853cd0266906
+Filename: pool/stable/libr/librle/librle_1.7.4_amd64.deb
+Size: 23992
+SHA256: 2632dffba804aa88ebca5cbe8c56283564d73fe4ec995b1baaf4365826654929
+SHA1: 070fb26dbbf25aa579577f4faaaefd8b4222fa8a
+MD5sum: de86c2e870e51f39b84e5491a7757eb6
 Description: Return Link Encapsulation library for Linux
  A C library that implements the RLE (Return Link Encapsulation) protocol
  as defined by ETSI TS 103 179 V1.1.1 (2013-08).
@@ -468,20 +468,41 @@ Description: Return Link Encapsulation library for Linux
  as defined by ETSI TS 103 179 V1.1.1 (2013-08).
 Build-Ids: ae3ca53066d89c8326863247f6bec0229f9e4c8f
 
-Package: librle-dev
+Package: librle-dbgsym
+Package-Type: ddeb
 Source: librle
-Version: 1.7.3
+Version: 1.7.4
+Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: OpenSAND Maintainers <admin@opensand.org>
-Installed-Size: 53
-Depends: librle (= 1.7.3)
+Installed-Size: 95
+Depends: librle (= 1.7.4)
+Breaks: librle-dbg (<< 1.7.4~)
+Replaces: librle-dbg (<< 1.7.4~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libr/librle/librle-dbgsym_1.7.4_amd64.deb
+Size: 66888
+SHA256: d4ecf77497f6575ee40091314a335f905e5984cdfdd6ec3debfbf33c0cd5ec02
+SHA1: ec3396b4c0437094854f75a70385e3dae32c411d
+MD5sum: e8c652cd01708910181ad89eb739c176
+Description: debug symbols for librle
+Build-Ids: 525bd56a974112d4648167ed41b0adf1feb5b5bc
+
+Package: librle-dev
+Source: librle
+Version: 1.7.4
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 52
+Depends: librle (= 1.7.4)
 Priority: optional
 Section: libdevel
-Filename: pool/stable/libr/librle/librle-dev_1.7.3_amd64.deb
-Size: 9886
-SHA256: 34bbbc081da8260280804d96bebd851157ea4f69f03cae4e7ddc432cc164427b
-SHA1: ed6faf7153fd3f32909989df50a7636b85dc9b69
-MD5sum: af73312bc29d68ebacc6e791fae19e42
+Filename: pool/stable/libr/librle/librle-dev_1.7.4_amd64.deb
+Size: 9882
+SHA256: 39890b24a43226e537c302fc32b7a4ea56234fcbf09b42f4f00e4521b8305354
+SHA1: a7ff3a70b3347b38a490e8fb9fe870e37237d5ca
+MD5sum: 10dcca3aa8f37da168dca5f311a240e0
 Description: Return Link Encapsulation library and headers for Linux
  A C library that implements the RLE (Return Link Encapsulation) protocol
  as defined by ETSI TS 103 179 V1.1.1 (2013-08).
