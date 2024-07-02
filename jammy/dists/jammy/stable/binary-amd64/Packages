@@ -67,18 +67,18 @@ Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: libgse
-Version: 1.2.1
+Version: 1.2.2
 Architecture: amd64
 Maintainer: OpenSAND Maintainers <admin@opensand.org>
-Installed-Size: 153
+Installed-Size: 154
 Depends: libc6 (>= 2.14), libpcap0.8
 Priority: optional
 Section: libs
-Filename: pool/stable/libg/libgse/libgse_1.2.1_amd64.deb
-Size: 26296
-SHA256: 26643e9a37372a6b03183f9bc6cb3f16e6c3a7d2f3e0b807596f99ca7fd36679
-SHA1: 02637330b21faf525a80d8f0382ce7f44be9a6fa
-MD5sum: 29f55887bcb10c1ab8f7bb8432d183d9
+Filename: pool/stable/libg/libgse/libgse_1.2.2_amd64.deb
+Size: 25008
+SHA256: 4ad735b154c921b3399f7d0bf61b44a44f87ba3ee81835c915871b0ee1cc6fcf
+SHA1: f08fbf975c59ad1a19ca173982fa7e3399385a92
+MD5sum: 7d3795881e8539f0d58b0e8d2d357140
 Description: A Generic Stream Encapsulation library for Linux
   Implementation of Generic Stream Encapsulation for Linux
   (or other Unix-compatible OS). The library can be used to add GSE
@@ -106,20 +106,41 @@ Description: A Generic Stream Encapsulation library for Linux
   This package includes the debug symbols needed to debug programs that
   make use of libgse.
 
-Package: libgse-dev
+Package: libgse-dbgsym
+Package-Type: ddeb
 Source: libgse
-Version: 1.2.1
+Version: 1.2.2
+Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: OpenSAND Maintainers <admin@opensand.org>
-Installed-Size: 101
-Depends: libgse (= 1.2.1), libpcap0.8-dev
+Installed-Size: 65
+Depends: libgse (= 1.2.2)
+Breaks: libgse-dbg (<< 1.2.2~)
+Replaces: libgse-dbg (<< 1.2.2~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libg/libgse/libgse-dbgsym_1.2.2_amd64.deb
+Size: 46206
+SHA256: 807395221991654ee5e2187c1493cbac5976a8537aa33b38edbebb4424d558fd
+SHA1: 7ba6d4ebcdb6bcd7fd679164da8d1653e86b771e
+MD5sum: 4bd5baee78df53e0862a843cdae27836
+Description: debug symbols for libgse
+Build-Ids: 7f936898f45c48a8c5303f38fab0cd818f50a563
+
+Package: libgse-dev
+Source: libgse
+Version: 1.2.2
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 113
+Depends: libgse (= 1.2.2), libpcap0.8-dev
 Priority: optional
 Section: libdevel
-Filename: pool/stable/libg/libgse/libgse-dev_1.2.1_amd64.deb
-Size: 15506
-SHA256: 6532ea725c23006d57e031b85cd58f1704c791df8828e1c15ee555639d05a93f
-SHA1: 1b8f97d02bf267701a7dde1c0c2d4d70dab178c6
-MD5sum: 494a9f613cbf4526fe76aa36af08f47c
+Filename: pool/stable/libg/libgse/libgse-dev_1.2.2_amd64.deb
+Size: 25428
+SHA256: 64bac0c2a7182a9e76192917f640da4ca343567bf10811c6637bc10db178565f
+SHA1: 2dd2fda8429b1815fc3534bc61e5a740ef12879d
+MD5sum: e47f26c16d88eca20235274e0093f830
 Description: Generic Stream Encapsulation library and headers for Linux
   Implementation of Generic Stream Encapsulation for Linux
   (or other Unix-compatible OS). The library can be used to add GSE

@@ -1,0 +1,58 @@
+Package: libgse
+Version: 1.2.2
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 154
+Depends: libc6 (>= 2.14), libpcap0.8
+Priority: optional
+Section: libs
+Filename: pool/stable/libg/libgse/libgse_1.2.2_amd64.deb
+Size: 23776
+SHA256: f69439c3b26fef413583d1395cf64ad85935d0b480fb0d30c3e9cd9db67fa8af
+SHA1: 60ba92259ca51b7c2b878189709396e6eaaddb7c
+MD5sum: 59ad8e9a742bfb32e410da841254ae7f
+Description: A Generic Stream Encapsulation library for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
+Package: libgse-dbgsym
+Package-Type: ddeb
+Source: libgse
+Version: 1.2.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 65
+Depends: libgse (= 1.2.2)
+Breaks: libgse-dbg (<< 1.2.2~)
+Replaces: libgse-dbg (<< 1.2.2~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libg/libgse/libgse-dbgsym_1.2.2_amd64.deb
+Size: 46322
+SHA256: 81ca6eb4cac541e5d83bbaa4115e6c1955f06bb8b731e3717561a47590eedd38
+SHA1: a91d8cff06cda2760192acf5739347986f1a035c
+MD5sum: 5f67e41de4c06f1e869dfb1aeb8e37d0
+Description: debug symbols for libgse
+Build-Ids: d9dff579b0186c2942699ce3066cc1eb603bd940
+
+Package: libgse-dev
+Source: libgse
+Version: 1.2.2
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 113
+Depends: libgse (= 1.2.2), libpcap0.8-dev
+Priority: optional
+Section: libdevel
+Filename: pool/stable/libg/libgse/libgse-dev_1.2.2_amd64.deb
+Size: 24992
+SHA256: f89aeefd117f5bdc0fb16b2c3714257b209a00a140610d2dcee9952766c6f1c7
+SHA1: e755a639c6643696899ee89313c990a61c7c6f75
+MD5sum: a9d303bc3c2e16842df0c2e8abdd7496
+Description: Generic Stream Encapsulation library and headers for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
