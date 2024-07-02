@@ -1,0 +1,114 @@
+Package: libgse
+Version: 1.2.2~dev~1719920680
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 154
+Depends: libc6 (>= 2.14), libpcap0.8
+Priority: optional
+Section: libs
+Filename: pool/dev/libg/libgse/libgse_1.2.2~dev~1719920680_amd64.deb
+Size: 23800
+SHA256: 6066ec2c589e9ea44fa078e2544fa7d3b53579227aab0af73e77ac3617305487
+SHA1: dfae3ff86ac45f076cad20396bf4b3ea1248740a
+MD5sum: bd30a1fa9f4251402269c8c24c02ddc0
+Description: A Generic Stream Encapsulation library for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
+Package: libgse-dbgsym
+Package-Type: ddeb
+Source: libgse
+Version: 1.2.2~dev~1719920680
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 65
+Depends: libgse (= 1.2.2~dev~1719920680)
+Breaks: libgse-dbg (<< 1.2.2~)
+Replaces: libgse-dbg (<< 1.2.2~)
+Priority: optional
+Section: debug
+Filename: pool/dev/libg/libgse/libgse-dbgsym_1.2.2~dev~1719920680_amd64.deb
+Size: 46332
+SHA256: 94c974b337ddc87154784b8892cde2a990eb5b75a8ed82e3e67960dbdfc187fb
+SHA1: b508117e0d69c483647008967c239bd055bc29d1
+MD5sum: f3ad76b4df0a322448f7faf3763e2ab2
+Description: debug symbols for libgse
+Build-Ids: 69f304f2fc5e7958ad9097369069261387070216
+
+Package: libgse-dev
+Source: libgse
+Version: 1.2.2~dev~1719920680
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 113
+Depends: libgse (= 1.2.2~dev~1719920680), libpcap0.8-dev
+Priority: optional
+Section: libdevel
+Filename: pool/dev/libg/libgse/libgse-dev_1.2.2~dev~1719920680_amd64.deb
+Size: 25030
+SHA256: 994677526e3edcf38af0f1fc30102a04b230af0a759e4c1180f559eda158975b
+SHA1: 4687a3a7026db41791a997e50a53fe24c98714da
+MD5sum: 58fd27159e05f03f39f9a823945e1f68
+Description: Generic Stream Encapsulation library and headers for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
+Package: librle
+Version: 1.7.4~dev~1719911735
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 68
+Depends: libc6 (>= 2.14)
+Priority: optional
+Section: libs
+Filename: pool/dev/libr/librle/librle_1.7.4~dev~1719911735_amd64.deb
+Size: 23298
+SHA256: c5390446466c459f36c2288168d14fbf096b7f1231f0dd714f32928cc14d0ce9
+SHA1: 784231bc3f8ee390b39ef1b8f37da187de9a029e
+MD5sum: 69bcf75e1cc4d1675041c65906cbd934
+Description: Return Link Encapsulation library for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+
+Package: librle-dbgsym
+Package-Type: ddeb
+Source: librle
+Version: 1.7.4~dev~1719911735
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 93
+Depends: librle (= 1.7.4~dev~1719911735)
+Breaks: librle-dbg (<< 1.7.4~)
+Replaces: librle-dbg (<< 1.7.4~)
+Priority: optional
+Section: debug
+Filename: pool/dev/libr/librle/librle-dbgsym_1.7.4~dev~1719911735_amd64.deb
+Size: 65328
+SHA256: 3488296230f3749fa075514deaa7fd3b8a28125ab03f4aabc776aea04db4d8ba
+SHA1: 4b15ab6d7c539726548dad55a7b522381fa87e76
+MD5sum: 1726efd539f4802903aa6bbfdd5fd9a7
+Description: debug symbols for librle
+Build-Ids: 671a7cc05a11d10297ce1466c44e5f246e9b5414
+
+Package: librle-dev
+Source: librle
+Version: 1.7.4~dev~1719911735
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 52
+Depends: librle (= 1.7.4~dev~1719911735)
+Priority: optional
+Section: libdevel
+Filename: pool/dev/libr/librle/librle-dev_1.7.4~dev~1719911735_amd64.deb
+Size: 9948
+SHA256: fe0c7630fa69a30eb68eaafc5929583ad27c7b9f51eaf0975b6bea4d122df5fb
+SHA1: 905a0b3324a65c0d59423bce7d4bbde3000071f5
+MD5sum: fcfebcf42e491bc502ddc9fab0f72ba4
+Description: Return Link Encapsulation library and headers for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+
