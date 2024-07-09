@@ -1,0 +1,268 @@
+Package: libopensand-conf
+Source: opensand-conf
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 1468
+Depends: libboost-python1.74.0 (>= 1.74.0), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), libxml2 (>= 2.7.4)
+Priority: optional
+Section: libs
+Filename: pool/testing/o/opensand-conf/libopensand-conf_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 273612
+SHA256: 99dfef6c79ab2e78206553221bd1a4f6430b2d2562ea7d7a09e414c505cfa716
+SHA1: 3d52db0662882ebb386aed036d834cd1f1344632
+MD5sum: 21e1af5bd43a9127ebdb4b01be019b98
+Description: The configuration library for OpenSAND
+
+Package: libopensand-conf-dev
+Source: opensand-conf
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 121
+Depends: libopensand-conf (= 7.0.1~dev~1720531064~dev-noble), libxml++2.6-dev, python3-dev, libboost-python1.74-dev
+Priority: optional
+Section: libdevel
+Filename: pool/testing/o/opensand-conf/libopensand-conf-dev_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 12630
+SHA256: d7f8cef03a733edb3ba49c124718db6d14ad4f2883ce6f16144012df51210239
+SHA1: 2fe2198b334841bcba16d5297a48dea18d70494d
+MD5sum: 51aea29faa10cf26ff1e0611aabd4fdc
+Description: The configuration library and headers for OpenSAND
+
+Package: libopensand-gse-encap-plugin
+Source: opensand-gse-encap-plugin
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 148
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libgse (>= 1.2.2), libopensand-output (>= 7.0.1~dev~1720531064~dev), libopensand-plugin (>= 7.0.1~dev~1720531064~dev), libstdc++6 (>= 5.2), opensand-core (= 7.0.1~dev~1720531064~dev-noble)
+Conflicts: libopensand-gse-plugin
+Replaces: libopensand-gse-plugin
+Provides: libopensand-gse-plugin
+Priority: optional
+Section: libs
+Filename: pool/testing/o/opensand-gse-encap-plugin/libopensand-gse-encap-plugin_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 62866
+SHA256: c2f9e5fad2c657035fca89cafcdd13cb1f90dba45837c2d806a565bf40fd16d8
+SHA1: 0ee970a4360ef6637b8f30ec17467ac59bfa9e18
+MD5sum: c95b885a1bec3d93c5e35348a0a04be7
+Description: The GSE plugin for OpenSAND
+
+Package: libopensand-output
+Source: opensand-output
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 265
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Conflicts: libopensand-env-plane
+Replaces: libopensand-env-plane
+Provides: libopensand-env-plane
+Priority: optional
+Section: libs
+Filename: pool/testing/o/opensand-output/libopensand-output_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 91458
+SHA256: 3367565a3c0d889dd8c22ae4ccfce7036398022a23a296119427ec1d12ce183e
+SHA1: 16cac5279ebf5414ab306118c0b7fb2214a020b0
+MD5sum: d462bf6c57e0ffa0e5c2cb5fe0adc77a
+Description: The output libraries for OpenSAND
+
+Package: libopensand-output-dev
+Source: opensand-output
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 48
+Depends: libopensand-output (= 7.0.1~dev~1720531064~dev-noble)
+Conflicts: libopensand-env-plane-dev
+Replaces: libopensand-env-plane-dev
+Provides: libopensand-env-plane-dev
+Priority: optional
+Section: libdevel
+Filename: pool/testing/o/opensand-output/libopensand-output-dev_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 9772
+SHA256: 9ae55c1b4ce5053bbc3a59aecb521d9defdce8631bd1624cfd1483212d17a9de
+SHA1: 0587ece4167fd1804fd0839faee3e1c3f9ce3f13
+MD5sum: bd1f83a876522c7d071a39ece962327b
+Description: The output libraries and headers for OpenSAND
+
+Package: libopensand-plugin
+Source: opensand-core
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 2778
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopensand-conf (= 7.0.1~dev~1720531064~dev-noble), libopensand-output (>= 7.0.1~dev~1720531064~dev), libstdc++6 (>= 11)
+Conflicts: libopensand-atm-aal5-encap-plugin, libopensand-constant-minimal-plugin, libopensand-constant-satdelay-plugin, libopensand-default-nominal-plugin, libopensand-encap-plugin, libopensand-ethernet-lan-adapt, libopensand-file-satdelay-plugin, libopensand-gate-error-plugin, libopensand-ideal-attenuation-plugin, libopensand-modcod-minimal-plugin, libopensand-mpeg-encap-plugin, libopensand-on-off-attenuation-plugin, libopensand-triangular-attenuation-plugin, libopensand-ule-encap-plugin
+Replaces: libopensand-atm-aal5-encap-plugin, libopensand-constant-minimal-plugin, libopensand-constant-satdelay-plugin, libopensand-default-nominal-plugin, libopensand-encap-plugin, libopensand-ethernet-lan-adapt, libopensand-file-satdelay-plugin, libopensand-gate-error-plugin, libopensand-ideal-attenuation-plugin, libopensand-modcod-minimal-plugin, libopensand-mpeg-encap-plugin, libopensand-on-off-attenuation-plugin, libopensand-triangular-attenuation-plugin, libopensand-ule-encap-plugin
+Provides: libopensand-atm-aal5-encap-plugin, libopensand-constant-minimal-plugin, libopensand-constant-satdelay-plugin, libopensand-default-nominal-plugin, libopensand-encap-plugin, libopensand-ethernet-lan-adapt, libopensand-file-satdelay-plugin, libopensand-gate-error-plugin, libopensand-ideal-attenuation-plugin, libopensand-modcod-minimal-plugin, libopensand-mpeg-encap-plugin, libopensand-on-off-attenuation-plugin, libopensand-triangular-attenuation-plugin, libopensand-ule-encap-plugin
+Priority: optional
+Section: libdevel
+Filename: pool/testing/o/opensand-core/libopensand-plugin_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 450298
+SHA256: 83d7f9749862bef1f803367b7a12ae8a472fc25a5e7a4099ef5947dd91e782d5
+SHA1: 56375d2f575d561fb49cf1d92a7f311890fde9b2
+MD5sum: 3cde987236bd56043a12cda653d6a253
+Description: The library for OpenSAND plugins
+
+Package: libopensand-plugin-dev
+Source: opensand-core
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 113
+Depends: libopensand-plugin (= 7.0.1~dev~1720531064~dev-noble)
+Conflicts: libopensand-encap-plugin-dev
+Replaces: libopensand-encap-plugin-dev
+Provides: libopensand-encap-plugin-dev
+Priority: optional
+Section: libdevel
+Filename: pool/testing/o/opensand-core/libopensand-plugin-dev_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 20430
+SHA256: 8b0c22b2acdc81cb2bf71dd795a9b1081349fa8a9d2d4fc22d7981d60b37ddad
+SHA1: d0e0d6bc45bf46170b18e53c54bb574b924b7d94
+MD5sum: 0907272c83087912b3e14b0c51dee7d4
+Description: The library for OpenSAND plugins
+
+Package: libopensand-rle-encap-plugin
+Source: opensand-rle-encap-plugin
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 124
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopensand-output (>= 7.0.1~dev~1720531064~dev), libopensand-plugin (>= 7.0.1~dev~1720531064~dev), librle (>= 1.7.4), libstdc++6 (>= 5.2), opensand-core (= 7.0.1~dev~1720531064~dev-noble)
+Priority: optional
+Section: libs
+Filename: pool/testing/o/opensand-rle-encap-plugin/libopensand-rle-encap-plugin_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 53938
+SHA256: e628980a2cebed59f3fb1be8dfb4576497f74eeafc7862990a8d1dbe404f7894
+SHA1: dd46d5b694cd9bbe0f842e4246535ad1528b13c5
+MD5sum: aeab6f70add6ee0c70b1062f27e9ddb1
+Description: The RLE plugin for OpenSAND
+
+Package: libopensand-rt
+Source: opensand-rt
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 113
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopensand-output (>= 7.0.1~dev~1720531064~dev), libstdc++6 (>= 12)
+Conflicts: opensand-margouilla
+Provides: opensand-margouilla
+Priority: optional
+Section: libs
+Filename: pool/testing/o/opensand-rt/libopensand-rt_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 37120
+SHA256: 4c6731b9bece67a04be1e3ee2fe7ac3ffa731d91b76619418ee4ae87f6a5b5e1
+SHA1: 43a09ce68cb77ed69f01d6fb03bc6d0f049067bc
+MD5sum: 9f2dfa0b02f5707970d772c39fb064ee
+Description: The runtime library for OpenSAND
+
+Package: libopensand-rt-dev
+Source: opensand-rt
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 114
+Depends: libopensand-rt (= 7.0.1~dev~1720531064~dev-noble)
+Conflicts: opensand-margouilla-dev
+Provides: opensand-margouilla-dev
+Priority: optional
+Section: libdevel
+Filename: pool/testing/o/opensand-rt/libopensand-rt-dev_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 16312
+SHA256: 22abfed6b15a4445810bd99e7bf42c9e5fcc620bf8039ee24918c656f260e668
+SHA1: 08d117e7499c8eb83c594d9b304bf5d0220b4510
+MD5sum: adb2188947400e7ffdd5cbd49b9ce663
+Description: The runtime library and headers for OpenSAND
+
+Package: opensand
+Source: opensand-meta
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 9
+Depends: opensand-core (>= 7.0.1~dev~1720531064~dev-noble), libopensand-output (>= 7.0.1~dev~1720531064~dev-noble), libopensand-rt (>= 7.0.1~dev~1720531064~dev-noble), libopensand-plugin (>= 7.0.1~dev~1720531064~dev-noble), libopensand-gse-encap-plugin (>= 7.0.1~dev~1720531064~dev-noble), libopensand-rle-encap-plugin (>= 7.0.1~dev~1720531064~dev-noble)
+Homepage: http://www.opensand.org
+Priority: optional
+Section: metapackages
+Filename: pool/testing/o/opensand-meta/opensand_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 3536
+SHA256: 0d3229ad2f71ecc7d0038252793ddd3ae503261078243b41f41e4268b9f5de24
+SHA1: 6575c0c7c16fc81f41e5f7126c0c661ed38fc58f
+MD5sum: 0dcffe98eedbe337eeec1b6e83138cc8
+Description: Packages for OpenSAND, a satellite emulation platform.
+ This metapackage is to ease the installation of OpenSAND environnment.
+
+Package: opensand-collector
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 30
+Pre-Depends: openjdk-8-jdk
+Depends: debconf (>= 0.5) | debconf-2.0, logstash, influxdb, elasticsearch, kibana, chronograf
+Conflicts: opensand-env-plane
+Replaces: opensand-env-plane
+Provides: opensand-env-plane
+Priority: optional
+Section: misc
+Filename: pool/testing/o/opensand-collector/opensand-collector_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 8004
+SHA256: b391c7ee4cd46b4838dbf2dc8f2cae69d4a5fdf61ac65366ba7899dc835e6f23
+SHA1: 6e74d50b6b97bac5d81c9edfbdc312fd3cb1d50a
+MD5sum: 2dc221a7a20502269828ab32b78a3650
+Description: Statistics and events collector for OpenSAND
+
+Package: opensand-core
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 1846
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopensand-conf (= 7.0.1~dev~1720531064~dev-noble), libopensand-output (>= 7.0.1~dev~1720531064~dev), libopensand-plugin (>= 7.0.1~dev~1720531064~dev), libopensand-rt (>= 7.0.1~dev~1720531064~dev), libstdc++6 (>= 11), rsyslog, logrotate
+Conflicts: opensand-core-bin
+Replaces: opensand-core-bin
+Provides: opensand-core-bin
+Priority: optional
+Section: misc
+Filename: pool/testing/o/opensand-core/opensand-core_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 597888
+SHA256: b424c4d0d1e30a7980fbd16076c9a63c68cc3b8d774cdd61571a0e22dff08117
+SHA1: c852909a4dbf33626df9bd7c299a8f215e5d992b
+MD5sum: 0908c6714944f2a6e0616925430f33f6
+Description: The OpenSAND emulation testbed core
+  OpenSAND is an emulation testbed aiming to represent in a cost effective way a
+  satellite telecommunication system for research and engineering activities.
+
+Package: opensand-deploy
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 4736
+Depends: libopensand-conf (= 7.0.1~dev~1720531064~dev-noble), python3-flask, python3-flask-cors, uwsgi, uwsgi-plugin-python3, python3-fabric, python3-decorator, nginx, nginx-extras
+Priority: optional
+Section: misc
+Filename: pool/testing/o/opensand-deploy/opensand-deploy_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 936778
+SHA256: 4e2a73fab9631e3b144196afdab3f10152cb65fb819b8afb56b6e8a19e08d857
+SHA1: 8ca9875059e2fa41d7db3a86e7517934bc9aa253
+MD5sum: e3ec413c1c598c32f360a42737a15ee0
+Description: The configuration files generator for the OpenSAND emulation testbed
+  OpenSAND is an emulation testbed aiming to represent in a cost effective way a
+  satellite telecommunication system for research and engineering activities.
+
+Package: opensand-network
+Version: 7.0.1~dev~1720531064~dev-noble
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 50
+Depends: python3, python3-netifaces, bridge-utils
+Priority: optional
+Section: misc
+Filename: pool/testing/o/opensand-network/opensand-network_7.0.1~dev~1720531064~dev-noble_amd64.deb
+Size: 11442
+SHA256: 49a8b5250c23ca250131fe60046c35acdd782a49f3077c8b9a41c33275af2e72
+SHA1: a3b119a38e59bad88330c1907eb11bb8e0f09b58
+MD5sum: 89e852b0de69d0e92971e31dbe493bd5
+Description: Script to configure OpenSAND entity network (sat, gw, st, gw_net_acc or gw_phy)
+
