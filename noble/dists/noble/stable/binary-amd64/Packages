@@ -166,3 +166,20 @@ Description: Return Link Encapsulation library and headers for Linux
  A C library that implements the RLE (Return Link Encapsulation) protocol
  as defined by ETSI TS 103 179 V1.1.1 (2013-08).
 
+Package: pepsal
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 74
+Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/stable/p/pepsal/pepsal_2.0.0_amd64.deb
+Size: 22916
+SHA256: 8bd1394246653f4ae1daaa43e63787d952f72d8fcccf37483f8dd0da343449a2
+SHA1: e072eed7e80354ec933fbee1187bb5eff49d9aa6
+MD5sum: f984ede25c402710be86bcf2d08a814c
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+
