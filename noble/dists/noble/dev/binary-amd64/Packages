@@ -32,6 +32,22 @@ MD5sum: 6608ce04498365f99d7e91d2c4823572
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
 
+Package: dambox
+Version: 1.0
+Architecture: amd64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 77
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libnetfilter-queue1 (>= 1.0.2), libnfnetlink0 (>= 1.0.2), libstdc++6 (>= 13.1), libnetfilter-queue-dev
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/dev/d/dambox/dambox_1.0_amd64.deb
+Size: 21146
+SHA256: b949c1de429152f39b8334e34c35d9cd986e1f17d2ebe2b795f9f0b01df29297
+SHA1: 77c0ab6b51a4a93ef90ba9caf6df6e227b96f746
+MD5sum: 65f2a4ff2502b87f120c69c993d6b05a
+Description: DamBox package
+
 Package: iperf3-openbach
 Version: 3.10.1-1
 Architecture: amd64
