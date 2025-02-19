@@ -333,18 +333,18 @@ MD5sum: aa078b2571664c3ee859aa2f3a5d5368
 Description: The runtime library and headers for OpenSAND
 
 Package: openbach-api
-Version: 3.11.5~dev~1739873348
+Version: 3.11.5~dev~1739962839
 Architecture: amd64
 Maintainer: OpenBACH Maintainers <admin@openbach.org>
 Installed-Size: 746
 Depends: python3-matplotlib, python3-pandas, python3-requests, python3:any (>= 3.8~)
 Priority: optional
 Section: misc
-Filename: pool/testing/o/openbach-api/openbach-api_3.11.5~dev~1739873348_amd64.deb
-Size: 74644
-SHA256: c0c79c940b8725405488cfc6b6cc8a688e310dcac770e28ad5e1670dcf48ed17
-SHA1: 59c7dea54fbd55debc1dc75cce364b2a8e19d2cd
-MD5sum: e44d821f3ed2f980253326b71be97865
+Filename: pool/testing/o/openbach-api/openbach-api_3.11.5~dev~1739962839_amd64.deb
+Size: 74648
+SHA256: 86179e73638f5bd8b0668125c73de284ca3cfa085358d50da82c9ed913a48fe7
+SHA1: 5cafbdb96b6967c54e58d3b594ed2cf3547a9990
+MD5sum: e051cd997a4daba62554b0dea99a1503
 Description: APIs to access and manipulate OpenBACH data
 
 Package: opensand
