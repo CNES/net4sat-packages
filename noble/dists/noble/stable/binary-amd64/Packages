@@ -1,0 +1,185 @@
+Package: d-itg-openbach
+Version: 2.8.1-2-1
+Architecture: amd64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 429
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Multi-Arch: foreign
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/stable/d/d-itg-openbach/d-itg-openbach_2.8.1-2-1_amd64.deb
+Size: 128884
+SHA256: bdd8b5013469b8d81d7b866c5373353baefaf2e97c9ffeee6ccef3fd797eee34
+SHA1: b7f4ad8951d2a79a5756ae6968c770a4630fd36a
+MD5sum: 6608ce04498365f99d7e91d2c4823572
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: dambox
+Version: 1.0
+Architecture: amd64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 77
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libnetfilter-queue1 (>= 1.0.2), libnfnetlink0 (>= 1.0.2), libstdc++6 (>= 13.1), libnetfilter-queue-dev
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/stable/d/dambox/dambox_1.0_amd64.deb
+Size: 21146
+SHA256: b949c1de429152f39b8334e34c35d9cd986e1f17d2ebe2b795f9f0b01df29297
+SHA1: 77c0ab6b51a4a93ef90ba9caf6df6e227b96f746
+MD5sum: 65f2a4ff2502b87f120c69c993d6b05a
+Description: DamBox package
+
+Package: iperf3-openbach
+Version: 3.10.1-1
+Architecture: amd64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 530
+Depends: libc6 (>= 2.38)
+Conflicts: iperf3, libiperf0
+Provides: iperf3, libiperf0
+Multi-Arch: foreign
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/stable/i/iperf3-openbach/iperf3-openbach_3.10.1-1_amd64.deb
+Size: 125422
+SHA256: 12d236539c861554fac425e8f3276b8b9cb068b9e3bee8718583a149b8fb2aff
+SHA1: 44bb999b49dd93ae8ace91af762474c10e0077fb
+MD5sum: ab6d29cfbfcdf969b2bab07db7ae0e1f
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: libgse
+Version: 1.2.2
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 154
+Depends: libc6 (>= 2.14), libpcap0.8
+Priority: optional
+Section: libs
+Filename: pool/stable/libg/libgse/libgse_1.2.2_amd64.deb
+Size: 23776
+SHA256: f69439c3b26fef413583d1395cf64ad85935d0b480fb0d30c3e9cd9db67fa8af
+SHA1: 60ba92259ca51b7c2b878189709396e6eaaddb7c
+MD5sum: 59ad8e9a742bfb32e410da841254ae7f
+Description: A Generic Stream Encapsulation library for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
+Package: libgse-dbgsym
+Package-Type: ddeb
+Source: libgse
+Version: 1.2.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 65
+Depends: libgse (= 1.2.2)
+Breaks: libgse-dbg (<< 1.2.2~)
+Replaces: libgse-dbg (<< 1.2.2~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libg/libgse/libgse-dbgsym_1.2.2_amd64.deb
+Size: 46322
+SHA256: 81ca6eb4cac541e5d83bbaa4115e6c1955f06bb8b731e3717561a47590eedd38
+SHA1: a91d8cff06cda2760192acf5739347986f1a035c
+MD5sum: 5f67e41de4c06f1e869dfb1aeb8e37d0
+Description: debug symbols for libgse
+Build-Ids: d9dff579b0186c2942699ce3066cc1eb603bd940
+
+Package: libgse-dev
+Source: libgse
+Version: 1.2.2
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 113
+Depends: libgse (= 1.2.2), libpcap0.8-dev
+Priority: optional
+Section: libdevel
+Filename: pool/stable/libg/libgse/libgse-dev_1.2.2_amd64.deb
+Size: 24992
+SHA256: f89aeefd117f5bdc0fb16b2c3714257b209a00a140610d2dcee9952766c6f1c7
+SHA1: e755a639c6643696899ee89313c990a61c7c6f75
+MD5sum: a9d303bc3c2e16842df0c2e8abdd7496
+Description: Generic Stream Encapsulation library and headers for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
+Package: librle
+Version: 1.7.4
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 68
+Depends: libc6 (>= 2.14)
+Priority: optional
+Section: libs
+Filename: pool/stable/libr/librle/librle_1.7.4_amd64.deb
+Size: 23272
+SHA256: 50a79165ab3f7e0b09c7b78b4d8bdb01e42fc0c7bb661b97434ccbfa93a452e3
+SHA1: 69b2f73fe6133a28fb6e8387557f8a9c3502c1dd
+MD5sum: 10941b895a16a1b91559c7fab73bf54a
+Description: Return Link Encapsulation library for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+
+Package: librle-dbgsym
+Package-Type: ddeb
+Source: librle
+Version: 1.7.4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 93
+Depends: librle (= 1.7.4)
+Breaks: librle-dbg (<< 1.7.4~)
+Replaces: librle-dbg (<< 1.7.4~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libr/librle/librle-dbgsym_1.7.4_amd64.deb
+Size: 65310
+SHA256: d181899b22cc1c7f6d5b1658eb03f69ac1d0b613c6545b3e047e14fe38bdf4b0
+SHA1: 4249621925d516724d22af989a50784c60af0ddf
+MD5sum: df92085b05ef633e5e965a6cc1145b7e
+Description: debug symbols for librle
+Build-Ids: 50236c886e1bbce2d138408264ed35f16756a55f
+
+Package: librle-dev
+Source: librle
+Version: 1.7.4
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 52
+Depends: librle (= 1.7.4)
+Priority: optional
+Section: libdevel
+Filename: pool/stable/libr/librle/librle-dev_1.7.4_amd64.deb
+Size: 9896
+SHA256: 2325933d88eaa864b9c5fb4eaad40db2f071bc2d0e747f50dcca0ae4a1a51545
+SHA1: 26cdeb1f8813a59989e17948af18d915ab1825ee
+MD5sum: 1e610b7f9031c6da0826dfe61ffb8632
+Description: Return Link Encapsulation library and headers for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+
+Package: pepsal
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 74
+Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/stable/p/pepsal/pepsal_2.0.0_amd64.deb
+Size: 22916
+SHA256: 8bd1394246653f4ae1daaa43e63787d952f72d8fcccf37483f8dd0da343449a2
+SHA1: e072eed7e80354ec933fbee1187bb5eff49d9aa6
+MD5sum: f984ede25c402710be86bcf2d08a814c
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+
