@@ -1,5 +1,5 @@
 Package: collect-agent
-Version: 1.4.3~dev~1747833871
+Version: 1.4.3~dev~1747835476
 Architecture: amd64
 Maintainer: OpenBACH maintainers <admin@openbach.org>
 Installed-Size: 314
@@ -7,11 +7,11 @@ Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), rsyslog, python
 Homepage: http://www.openbach.org/
 Priority: optional
 Section: misc
-Filename: pool/dev/c/collect-agent/collect-agent_1.4.3~dev~1747833871_amd64.deb
-Size: 90072
-SHA256: 69a01da2289d50344d2a648db81c68389f5723f341389edd337c1c3e6f98af7b
-SHA1: a102157bcb11c1b66a85d33e5ad1dea4afeb0b0b
-MD5sum: 4a922079da045500f8cf3d59fa8375da
+Filename: pool/dev/c/collect-agent/collect-agent_1.4.3~dev~1747835476_amd64.deb
+Size: 90092
+SHA256: cf4842d49a6c0e2c2ba48e0ac907dea727424716a0ee28413fa465ceae538d3c
+SHA1: f72cc84fea4f2589c6212619ac70669ad29815e5
+MD5sum: 5229433b06f79d771e6918d4a0a55a36
 Description: OpenBACH collect-agent API
 
 Package: d-itg-openbach
