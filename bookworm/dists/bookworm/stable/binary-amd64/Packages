@@ -104,6 +104,63 @@ MD5sum: 33fee960c8c4693ab13b8a059b6bcc5a
 Description: debug symbols for iperf3-openbach
 Build-Ids: 266d7099c0be0f1caff1b5e1634e00a08a16c1fd ddbf34f077f7f0d817798a98a4f474971473058d
 
+Package: libgse
+Version: 1.2.2
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 154
+Depends: libc6 (>= 2.14), libpcap0.8
+Priority: optional
+Section: libs
+Filename: pool/stable/libg/libgse/libgse_1.2.2_amd64.deb
+Size: 21332
+SHA256: 53f4bb26f653c4eba68e68f5d97228b7bf10f13683ff543e82fe7d6c0f26c6d8
+SHA1: 1589a3fed4edeaf8faaa81ffd7946ae473523693
+MD5sum: 8582511899fb486d65937b80647af244
+Description: A Generic Stream Encapsulation library for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
+Package: libgse-dbgsym
+Source: libgse
+Version: 1.2.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 58
+Depends: libgse (= 1.2.2)
+Breaks: libgse-dbg (<< 1.2.2~)
+Replaces: libgse-dbg (<< 1.2.2~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libg/libgse/libgse-dbgsym_1.2.2_amd64.deb
+Size: 44088
+SHA256: d5ed12202b7b8f1c43fa97334439f4d207e110cbfb38851b0a49dd90f0eb3586
+SHA1: d69b17d6d967ba583c348a0dc2b4c1e1b611dd51
+MD5sum: 337f0c5ea512e60da5084ec2358c4f37
+Description: debug symbols for libgse
+Build-Ids: 668c90b6dc02a21bbe6300ed1d5bde122a508936
+
+Package: libgse-dev
+Source: libgse
+Version: 1.2.2
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 112
+Depends: libgse (= 1.2.2), libpcap0.8-dev
+Priority: optional
+Section: libdevel
+Filename: pool/stable/libg/libgse/libgse-dev_1.2.2_amd64.deb
+Size: 24468
+SHA256: 2e8d268256f0b013c77cbf6f1cb4842e1fed15523064bb1ccc8786f06e50a693
+SHA1: 6cd369c04a744a530bbeaf5d2ba287bdd69dee5a
+MD5sum: 3b32e7c947affb929b17b45470ba5881
+Description: Generic Stream Encapsulation library and headers for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
 Package: librle
 Version: 1.7.4
 Architecture: amd64
