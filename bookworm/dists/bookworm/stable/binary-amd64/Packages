@@ -104,3 +104,58 @@ MD5sum: 33fee960c8c4693ab13b8a059b6bcc5a
 Description: debug symbols for iperf3-openbach
 Build-Ids: 266d7099c0be0f1caff1b5e1634e00a08a16c1fd ddbf34f077f7f0d817798a98a4f474971473058d
 
+Package: librle
+Version: 1.7.4
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 68
+Depends: libc6 (>= 2.14)
+Priority: optional
+Section: libs
+Filename: pool/stable/libr/librle/librle_1.7.4_amd64.deb
+Size: 22908
+SHA256: ae7e8d0ace12b9abf7802a4da68c9d43bf06857ca148644ff31181c970252209
+SHA1: bfdbb93a1d3fdf682fae3b2882cb027771a509e7
+MD5sum: eeb1c628a1f889eac4c35ff8c9451b99
+Description: Return Link Encapsulation library for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+
+Package: librle-dbgsym
+Source: librle
+Version: 1.7.4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 78
+Depends: librle (= 1.7.4)
+Breaks: librle-dbg (<< 1.7.4~)
+Replaces: librle-dbg (<< 1.7.4~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libr/librle/librle-dbgsym_1.7.4_amd64.deb
+Size: 62312
+SHA256: 3ee8f5e9456fbf85b36faa4684beec158b05865e089d19e294757848625a08ce
+SHA1: d1da7d29581fbe1f979a42dd906c771cd7e27a1a
+MD5sum: 1d816596674704f4385bb806b8003484
+Description: debug symbols for librle
+Build-Ids: a5d8f85abf4393b2a208b89980297413db851169
+
+Package: librle-dev
+Source: librle
+Version: 1.7.4
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 52
+Depends: librle (= 1.7.4)
+Priority: optional
+Section: libdevel
+Filename: pool/stable/libr/librle/librle-dev_1.7.4_amd64.deb
+Size: 9906
+SHA256: 350a260f6c563951283c0633a6567f57a14bf3e678c63a1b586225f735505ba0
+SHA1: 1c7a422328912f8ed4ea110ca049627bd602974f
+MD5sum: 0d59b43a931dfbefbe055479bb837b6f
+Description: Return Link Encapsulation library and headers for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+
