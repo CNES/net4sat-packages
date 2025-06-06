@@ -313,3 +313,20 @@ SHA1: d999e9c7fe34760052063724b5e163e5ee7bab0f
 MD5sum: 5535da87b04f129831bfad814d3b643f
 Description: Script to configure OpenSAND entity network (sat, gw, st, gw_net_acc or gw_phy)
 
+Package: pepsal
+Version: 2.0.0~dev~1749194682
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 74
+Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/testing/p/pepsal/pepsal_2.0.0~dev~1749194682_amd64.deb
+Size: 23104
+SHA256: 1df8818382fdd39f2c5eb3e72916c5427457951b6abf52eedf5ddcd92c5b8c9a
+SHA1: d041f1f49dcf8f61cb439c5991f8a5e56ed89ddc
+MD5sum: 79aa1bd473d53550af97e6bc4b228c07
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+
