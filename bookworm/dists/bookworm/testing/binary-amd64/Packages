@@ -1,5 +1,5 @@
 Package: collect-agent
-Version: 1.4.3~dev~1748422421
+Version: 1.4.3~dev~1752054398
 Architecture: amd64
 Maintainer: OpenBACH maintainers <admin@openbach.org>
 Installed-Size: 301
@@ -7,28 +7,28 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), rsyslog, pytho
 Homepage: http://www.openbach.org/
 Priority: optional
 Section: misc
-Filename: pool/testing/c/collect-agent/collect-agent_1.4.3~dev~1748422421_amd64.deb
-Size: 84432
-SHA256: 5a70a1e41f3ce2379ff12890eceb1d265200cbafd34d5a7b4fb6520c27796842
-SHA1: acac8efcd4c79ffe87ec68852c94ab0b0eb9a7c4
-MD5sum: 3067a935130ca4c18eea7c162bec56ad
+Filename: pool/testing/c/collect-agent/collect-agent_1.4.3~dev~1752054398_amd64.deb
+Size: 84428
+SHA256: 0f20d94933c4062f1cc9b293fe85a581cd1cfd787e7ffe48fc2cf73e6a40fb98
+SHA1: e45e62fc4b70eadf856e796e331ed7ad80fbd58a
+MD5sum: a95eecd4903516b26cca4cc1023dd361
 Description: OpenBACH collect-agent API
 
 Package: collect-agent-dbgsym
 Source: collect-agent
-Version: 1.4.3~dev~1748422421
+Version: 1.4.3~dev~1752054398
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: OpenBACH maintainers <admin@openbach.org>
 Installed-Size: 815
-Depends: collect-agent (= 1.4.3~dev~1748422421)
+Depends: collect-agent (= 1.4.3~dev~1752054398)
 Priority: optional
 Section: debug
-Filename: pool/testing/c/collect-agent/collect-agent-dbgsym_1.4.3~dev~1748422421_amd64.deb
+Filename: pool/testing/c/collect-agent/collect-agent-dbgsym_1.4.3~dev~1752054398_amd64.deb
 Size: 766916
-SHA256: 34cbfec18e3b397894f47493463405878f3f18fd2909883fd6643a550ee47b4c
-SHA1: 9a0b2cff2abf213f6eacfe5c84dfbe1c4566c5e8
-MD5sum: a6d2618cafea201342d92b0ff67826e3
+SHA256: 1ac569c0f656f5b1b0283e01e3f7b30198499f144dbe7f43abcab3ae18d6017c
+SHA1: 71a8210202b99263eab32075498f6dcca5da5be4
+MD5sum: 42afd1472f9ad0c8e58bba304bf595ea
 Description: debug symbols for collect-agent
 Build-Ids: 49334a31072fa40e4cd2de1783413a102187dd1a 53ddc973ba2ba76cfb834096e536bbfd5315fad7
 
