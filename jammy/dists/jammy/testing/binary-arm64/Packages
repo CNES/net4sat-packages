@@ -1,5 +1,5 @@
 Package: collect-agent
-Version: 1.4.3~dev~1752054360
+Version: 1.4.3~dev~1752054795
 Architecture: arm64
 Maintainer: OpenBACH maintainers <admin@openbach.org>
 Installed-Size: 247
@@ -7,11 +7,11 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), rsyslog, pyt
 Homepage: http://www.openbach.org/
 Priority: optional
 Section: misc
-Filename: pool/testing/c/collect-agent/collect-agent_1.4.3~dev~1752054360_arm64.deb
+Filename: pool/testing/c/collect-agent/collect-agent_1.4.3~dev~1752054795_arm64.deb
 Size: 83010
-SHA256: aef00df5e6dd521c15d4644cbc072561df4b62ff9feec8ef85dc795dd960e129
-SHA1: b8b4dc952fdfd273602049f98934ed03ec104cec
-MD5sum: c4cd5bc4746e603f382391991ac1f52b
+SHA256: accdf29342715af79f8ba2cc06058b7277c75450805c0a513bb268d1886dbd57
+SHA1: 0680575387799ebc4dcf7636c3a731a568ea9966
+MD5sum: 65a50fe3c5b9635e98a03a57a620ff06
 Description: OpenBACH collect-agent API
 
 Package: pepsal
