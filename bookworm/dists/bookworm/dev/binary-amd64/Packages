@@ -104,3 +104,38 @@ MD5sum: 33fee960c8c4693ab13b8a059b6bcc5a
 Description: debug symbols for iperf3-openbach
 Build-Ids: 266d7099c0be0f1caff1b5e1634e00a08a16c1fd ddbf34f077f7f0d817798a98a4f474971473058d
 
+Package: pepsal
+Version: 2.0.0~dev~1753089078
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 83
+Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/dev/p/pepsal/pepsal_2.0.0~dev~1753089078_amd64.deb
+Size: 24276
+SHA256: bfdcc69b748eda1b0e11be3cb9f9b5a95f9604aa6e5548c0e82a1b3a6170db1d
+SHA1: 08ac88ee23ed8383247e96e11a79a8f1e38e48c0
+MD5sum: 0ea569414d0fb25d687b7aa1a46b58a8
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+
+Package: pepsal-dbgsym
+Source: pepsal
+Version: 2.0.0~dev~1753089078
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 76
+Depends: pepsal (= 2.0.0~dev~1753089078)
+Priority: optional
+Section: debug
+Filename: pool/dev/p/pepsal/pepsal-dbgsym_2.0.0~dev~1753089078_amd64.deb
+Size: 59680
+SHA256: 6c33a6451ccfb44304716e73c4f7d0b716943cdfaf4fba40836387b04168a262
+SHA1: 320085bfb0265b37a5961201e84381be70f2b9c5
+MD5sum: 8931467c6ea2ba0143c1874dee2192c3
+Description: debug symbols for pepsal
+Build-Ids: 92197aff605b8bff557ceb9769af3e56d116b53d
+
