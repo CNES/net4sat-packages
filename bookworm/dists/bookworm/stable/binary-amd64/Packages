@@ -216,3 +216,38 @@ Description: Return Link Encapsulation library and headers for Linux
  A C library that implements the RLE (Return Link Encapsulation) protocol
  as defined by ETSI TS 103 179 V1.1.1 (2013-08).
 
+Package: pepsal
+Version: 2.0.1
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 83
+Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/stable/p/pepsal/pepsal_2.0.1_amd64.deb
+Size: 24264
+SHA256: 9fd0f152158c196794cd75a6f3ae83156ddf397b7f000dc1b981bee418895ed2
+SHA1: 545fb1e0a017381b993510f3f88c463d1f3db34d
+MD5sum: 05fad75af3ffea9f39ac609b1364e273
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+
+Package: pepsal-dbgsym
+Source: pepsal
+Version: 2.0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 76
+Depends: pepsal (= 2.0.1)
+Priority: optional
+Section: debug
+Filename: pool/stable/p/pepsal/pepsal-dbgsym_2.0.1_amd64.deb
+Size: 59644
+SHA256: d5aa556274fc9ea71128b1962ae22b56541c5a6de372459e19b9e20130880aac
+SHA1: 774ab2c547fde0170fa3df700456aad39b28af3b
+MD5sum: bc81b9aff0f699764e0e95be8ce6c2f1
+Description: debug symbols for pepsal
+Build-Ids: 3d403517e83324709fd7649864916644683dad1b
+
