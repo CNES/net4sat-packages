@@ -1,0 +1,680 @@
+Package: collect-agent
+Version: 1.4.3
+Architecture: amd64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 314
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), rsyslog, python3 (>= 3.5)
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/stable/c/collect-agent/collect-agent_1.4.3_amd64.deb
+Size: 90064
+SHA256: dfbeb29de11e968ae06a9d9eaaf0084c7f3eced771dafcdd300af1015549b441
+SHA1: a13e3faa2f92d8ed870f304d06a14bb6e0419ae2
+MD5sum: 0850d15f8ced71b6cf5f799519ed1278
+Description: OpenBACH collect-agent API
+
+Package: d-itg-openbach
+Version: 2.8.1-2-1
+Architecture: amd64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 423
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/stable/d/d-itg-openbach/d-itg-openbach_2.8.1-2-1_amd64.deb
+Size: 117752
+SHA256: 93b2a0809203a8b219a1520b22aab83823a84b5c47395bc19353eeeef1d8f1fc
+SHA1: 5ebb56bcd8629de120d33a3363b4834ffe375b28
+MD5sum: 693ee024d4179b728772678031bd6fa3
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: dambox
+Version: 1.0
+Architecture: amd64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 81
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libnetfilter-queue1, libnfnetlink0, libstdc++6 (>= 9), libnetfilter-queue-dev
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/stable/d/dambox/dambox_1.0_amd64.deb
+Size: 20240
+SHA256: 9a705aa53188dbe5e1a4426b9b94491ff28a85cd8105f7627060223609c70551
+SHA1: 15cc68f80cf0c4a287ef12fc63abc75f086ba990
+MD5sum: 8b4af287cf57cd3da01ecd3b45e2e36b
+Description: DamBox package
+
+Package: iperf3-openbach
+Version: 3.10.1-1
+Architecture: amd64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 530
+Depends: libc6 (>= 2.17)
+Conflicts: iperf3, libiperf0
+Provides: iperf3, libiperf0
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/stable/i/iperf3-openbach/iperf3-openbach_3.10.1-1_amd64.deb
+Size: 112036
+SHA256: 355a009c495d3713374cb7c5b61e68cc9483a513fc444b7f909592fb8213a6e1
+SHA1: c42fd540828fb1971d18c986f2ede185231684ee
+MD5sum: 9fefd1275fc552a669605e9902c53402
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: libgse
+Version: 1.2.2
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 154
+Depends: libc6 (>= 2.14), libpcap0.8
+Priority: optional
+Section: libs
+Filename: pool/stable/libg/libgse/libgse_1.2.2_amd64.deb
+Size: 21100
+SHA256: af74235c961fcde9054d3012ec0742570b81d3660792905472096cf6c986d38f
+SHA1: 22e0aecc338bcae39aff4f75aa04ed521788f4c0
+MD5sum: bbc71921ac5cc7bf7d2c01548df48871
+Description: A Generic Stream Encapsulation library for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
+Package: libgse-dbg
+Source: libgse
+Version: 1.2.1
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 152
+Depends: libgse (= 1.2.1)
+Priority: optional
+Section: debug
+Filename: pool/stable/libg/libgse/libgse-dbg_1.2.1_amd64.deb
+Size: 42856
+SHA256: ff194451760f8a3f0499a56f98ec4328b2c219c44f65ceb1c23b93535ffd1151
+SHA1: 69887e70bc18c27771d4f40ae2337d530583d777
+MD5sum: cd19fb6862aec225fe9a96396f052a4c
+Description: A Generic Stream Encapsulation library for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application.
+  .
+  This package includes the debug symbols needed to debug programs that
+  make use of libgse.
+
+Package: libgse-dbgsym
+Package-Type: ddeb
+Source: libgse
+Version: 1.2.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 64
+Depends: libgse (= 1.2.2)
+Breaks: libgse-dbg (<< 1.2.2~)
+Replaces: libgse-dbg (<< 1.2.2~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libg/libgse/libgse-dbgsym_1.2.2_amd64.deb
+Size: 48360
+SHA256: cd48bbd8f41f39044ac1be1810050a7442e448e3bfe6ae6cdbdad712a69f0f7f
+SHA1: 6fcd42a8e2dee2c3ac5a936d0faab80c2a5a7850
+MD5sum: d005ae6de04addddff42a379d81cfe66
+Description: debug symbols for libgse
+Build-Ids: 072e3cd46ffce8959b0e593789205a6d6badc90d
+
+Package: libgse-dev
+Source: libgse
+Version: 1.2.2
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 113
+Depends: libgse (= 1.2.2), libpcap0.8-dev
+Priority: optional
+Section: libdevel
+Filename: pool/stable/libg/libgse/libgse-dev_1.2.2_amd64.deb
+Size: 24728
+SHA256: ec952a1426ac5e61a5ff9c9014dfb4fecb09522a92cbf4a5a33f6ff8163ce52b
+SHA1: 7afb90bbb3045c47b0dc3b702f038c8096e53ca1
+MD5sum: 3e48ef88fea254609bf567e53e845f50
+Description: Generic Stream Encapsulation library and headers for Linux
+  Implementation of Generic Stream Encapsulation for Linux
+  (or other Unix-compatible OS). The library can be used to add GSE
+  encapsulation/deencapsulation capabilities to an application
+
+Package: libopensand-conf
+Source: opensand-conf
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 2155
+Depends: libboost-python1.71.0, libboost-python1.71.0-py38, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 9), libxml2 (>= 2.7.4)
+Priority: optional
+Section: libs
+Filename: pool/stable/o/opensand-conf/libopensand-conf_8.0.0_amd64.deb
+Size: 296992
+SHA256: 5d3f9283aa4720a9b58b1e2c31dff744cfb8dcefc5d9d6c1c6586b3bbb39f8e3
+SHA1: 318ad4901ebeddbe8cf415cd0cc120158ecbc722
+MD5sum: 0a84a5731cf002f2b5c38dd644dc4152
+Description: The configuration library for OpenSAND
+
+Package: libopensand-conf-dbg
+Source: opensand-conf
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 26969
+Depends: libopensand-conf (= 8.0.0)
+Priority: optional
+Section: debug
+Filename: pool/stable/o/opensand-conf/libopensand-conf-dbg_8.0.0_amd64.deb
+Size: 3977186
+SHA256: 7b5f833de9a510ab8dc88bdc2fb858b71666b3214827ff5ac147f7b5f78b992a
+SHA1: 43ac7b1314889c9f78ad3f7bb9576e08a30a8b01
+MD5sum: 74fdb237fe661c9142805ac13ccc3085
+Description: Debugging symbols for OpenSAND configuration library
+
+Package: libopensand-conf-dev
+Source: opensand-conf
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 125
+Depends: libopensand-conf (= 8.0.0), libxml++2.6-dev, python3-dev, libboost-python1.71-dev
+Priority: optional
+Section: libdevel
+Filename: pool/stable/o/opensand-conf/libopensand-conf-dev_8.0.0_amd64.deb
+Size: 13420
+SHA256: 889c6b4eb7a5af41775c3c1b6d5f882a9e427c2b65ca1daf9aa7108ffc2d6174
+SHA1: dfb291ce5d0314ca5f7b51d44d87c525eef46db0
+MD5sum: dbf6fc5912c49a50bb474f32ed7aa1ba
+Description: The configuration library and headers for OpenSAND
+
+Package: libopensand-gse-encap-plugin
+Source: opensand-gse-encap-plugin
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 168
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libgse, libopensand-output, libopensand-plugin, libstdc++6 (>= 5.2), opensand-core (= 8.0.0)
+Conflicts: libopensand-gse-plugin
+Replaces: libopensand-gse-plugin
+Provides: libopensand-gse-plugin
+Priority: optional
+Section: libs
+Filename: pool/stable/o/opensand-gse-encap-plugin/libopensand-gse-encap-plugin_8.0.0_amd64.deb
+Size: 44232
+SHA256: 9cd64e919c71cad18bcdbffd5a699b3f3749899b7f40471d57d2b196a7173d4b
+SHA1: cc47f9566850ff7e82646604aa8d7304cc200832
+MD5sum: 766ed6d6ea5a5d097140ee00fb302da4
+Description: The GSE plugin for OpenSAND
+
+Package: libopensand-gse-encap-plugin-dbg
+Source: opensand-gse-encap-plugin
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 2987
+Depends: libopensand-gse-encap-plugin (= 8.0.0)
+Conflicts: libopensand-gse-plugin-dbg
+Replaces: libopensand-gse-plugin-dbg
+Provides: libopensand-gse-plugin-dbg
+Priority: optional
+Section: debug
+Filename: pool/stable/o/opensand-gse-encap-plugin/libopensand-gse-encap-plugin-dbg_8.0.0_amd64.deb
+Size: 504254
+SHA256: ae8d63830b92ac30b70ff1ac19c6de5048aa1d11191ff8f51b4c739980e0532c
+SHA1: a9618d784d0217ead58d0039caaa79cf7baaffeb
+MD5sum: b0cbfa5ebe7902d5cb60be8dfdac0cc5
+Description: Debugging symbols for OpenSAND GSE plugin
+
+Package: libopensand-gse-rust-encap-plugin
+Source: opensand-gse-rust-encap-plugin
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 8
+Depends: opensand-core (= 8.0.0)
+Priority: optional
+Section: libs
+Filename: pool/stable/o/opensand-gse-rust-encap-plugin/libopensand-gse-rust-encap-plugin_8.0.0_amd64.deb
+Size: 3086
+SHA256: 522946992247e17c6dac0b78a724abc0c7f10c8893d5891256e083f0c063d8e0
+SHA1: 9c4fd717a02c7af1616e6c879134eec79a141761
+MD5sum: 077b75248f1fc25728d441d10a5bfbe4
+Description: The GSE plugin for OpenSAND (Rust build)
+
+Package: libopensand-gse-rust-encap-plugin-dbg
+Source: opensand-gse-rust-encap-plugin
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 10
+Depends: libopensand-gse-rust-encap-plugin (= 8.0.0)
+Priority: optional
+Section: libs
+Filename: pool/stable/o/opensand-gse-rust-encap-plugin/libopensand-gse-rust-encap-plugin-dbg_8.0.0_amd64.deb
+Size: 3442
+SHA256: 9d854644817d8556d3dbd15bdd64df61ea91812f1fd42cfe617794ba376bf4c4
+SHA1: 37f30d97e9622c3bd69a15a7a83fde8cc4653781
+MD5sum: e55af61514444184428421616af812b3
+Description: Debugging symbols for OpenSAND GSE plugin (Rust build)
+
+Package: libopensand-output
+Source: opensand-output
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 325
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Conflicts: libopensand-env-plane
+Replaces: libopensand-env-plane
+Provides: libopensand-env-plane
+Priority: optional
+Section: libs
+Filename: pool/stable/o/opensand-output/libopensand-output_8.0.0_amd64.deb
+Size: 92476
+SHA256: 11fcf36641e49e7f52f3723fc345d6a1bee78db23a6953e348fb227f9d4c9976
+SHA1: 1a198a347688ba0feeeeca78e430a09e529b48c6
+MD5sum: 93d7266378030091312aa7d1a08d87a5
+Description: The output libraries for OpenSAND
+
+Package: libopensand-output-dbg
+Source: opensand-output
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 3400
+Depends: libopensand-output (= 8.0.0)
+Conflicts: libopensand-env-plane-dbg
+Replaces: libopensand-env-plane-dbg
+Provides: libopensand-env-plane-dbg
+Priority: optional
+Section: debug
+Filename: pool/stable/o/opensand-output/libopensand-output-dbg_8.0.0_amd64.deb
+Size: 609120
+SHA256: 714b93003734311f2ce2f726d519609425c26bebbf309036cd10fc27345bd102
+SHA1: 6941e2fc3b23ed346849f4424c7e869d66682dbf
+MD5sum: 1114be52d732e33978fc0430ad9f8c01
+Description: Debugging symbols for OpenSAND Output library
+
+Package: libopensand-output-dev
+Source: opensand-output
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 51
+Depends: libopensand-output (= 8.0.0)
+Conflicts: libopensand-env-plane-dev
+Replaces: libopensand-env-plane-dev
+Provides: libopensand-env-plane-dev
+Priority: optional
+Section: libdevel
+Filename: pool/stable/o/opensand-output/libopensand-output-dev_8.0.0_amd64.deb
+Size: 10364
+SHA256: 0e385f2043171dfd197ba12f0c676067c9739acb118bc624a6e022435ea8a3d2
+SHA1: 3e3cbe975a59beff67f174e4dbe881267795c54c
+MD5sum: e045b40e4aedeebde3be113f1381733d
+Description: The output libraries and headers for OpenSAND
+
+Package: libopensand-plugin
+Source: opensand-core
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 857
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopensand-conf (= 8.0.0), libopensand-output, libstdc++6 (>= 5.2)
+Conflicts: libopensand-atm-aal5-encap-plugin, libopensand-constant-minimal-plugin, libopensand-constant-satdelay-plugin, libopensand-default-nominal-plugin, libopensand-encap-plugin, libopensand-ethernet-lan-adapt, libopensand-file-satdelay-plugin, libopensand-gate-error-plugin, libopensand-ideal-attenuation-plugin, libopensand-modcod-minimal-plugin, libopensand-mpeg-encap-plugin, libopensand-on-off-attenuation-plugin, libopensand-triangular-attenuation-plugin, libopensand-ule-encap-plugin
+Replaces: libopensand-atm-aal5-encap-plugin, libopensand-constant-minimal-plugin, libopensand-constant-satdelay-plugin, libopensand-default-nominal-plugin, libopensand-encap-plugin, libopensand-ethernet-lan-adapt, libopensand-file-satdelay-plugin, libopensand-gate-error-plugin, libopensand-ideal-attenuation-plugin, libopensand-modcod-minimal-plugin, libopensand-mpeg-encap-plugin, libopensand-on-off-attenuation-plugin, libopensand-triangular-attenuation-plugin, libopensand-ule-encap-plugin
+Provides: libopensand-atm-aal5-encap-plugin, libopensand-constant-minimal-plugin, libopensand-constant-satdelay-plugin, libopensand-default-nominal-plugin, libopensand-encap-plugin, libopensand-ethernet-lan-adapt, libopensand-file-satdelay-plugin, libopensand-gate-error-plugin, libopensand-ideal-attenuation-plugin, libopensand-modcod-minimal-plugin, libopensand-mpeg-encap-plugin, libopensand-on-off-attenuation-plugin, libopensand-triangular-attenuation-plugin, libopensand-ule-encap-plugin
+Priority: optional
+Section: libdevel
+Filename: pool/stable/o/opensand-core/libopensand-plugin_8.0.0_amd64.deb
+Size: 177494
+SHA256: d67053653b38e16e0f0a36933f7f7446dd88b24bd8bef023be06cd98f2fe749d
+SHA1: a2869073573412d56e0cf03f2894c0b5ded85a82
+MD5sum: 74f82ce96d84fee74a743bcc042736cb
+Description: The library for OpenSAND plugins
+
+Package: libopensand-plugin-dbg
+Source: opensand-core
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 88197
+Depends: libopensand-plugin (= 8.0.0)
+Conflicts: libopensand-atm-aal5-encap-plugin-dbg, libopensand-constant-minimal-plugin-dbg, libopensand-constant-satdelay-plugin-dbg, libopensand-default-nominal-plugin-dbg, libopensand-encap-plugin-dbg, libopensand-file-satdelay-plugin-dbg, libopensand-gate-error-plugin-dbg, libopensand-ideal-attenuation-plugin-dbg, libopensand-modcod-minimal-plugin-dbg, libopensand-mpeg-encap-plugin-dbg, libopensand-on-off-attenuation-plugin-dbg, libopensand-triangular-attenuation-plugin-dbg, libopensand-ule-encap-plugin-dbg
+Replaces: libopensand-atm-aal5-encap-plugin-dbg, libopensand-constant-minimal-plugin-dbg, libopensand-constant-satdelay-plugin-dbg, libopensand-default-nominal-plugin-dbg, libopensand-encap-plugin-dbg, libopensand-file-satdelay-plugin-dbg, libopensand-gate-error-plugin-dbg, libopensand-ideal-attenuation-plugin-dbg, libopensand-modcod-minimal-plugin-dbg, libopensand-mpeg-encap-plugin-dbg, libopensand-on-off-attenuation-plugin-dbg, libopensand-triangular-attenuation-plugin-dbg, libopensand-ule-encap-plugin-dbg
+Provides: libopensand-atm-aal5-encap-plugin-dbg, libopensand-constant-minimal-plugin-dbg, libopensand-constant-satdelay-plugin-dbg, libopensand-default-nominal-plugin-dbg, libopensand-encap-plugin-dbg, libopensand-file-satdelay-plugin-dbg, libopensand-gate-error-plugin-dbg, libopensand-ideal-attenuation-plugin-dbg, libopensand-modcod-minimal-plugin-dbg, libopensand-mpeg-encap-plugin-dbg, libopensand-on-off-attenuation-plugin-dbg, libopensand-triangular-attenuation-plugin-dbg, libopensand-ule-encap-plugin-dbg
+Priority: optional
+Section: debug
+Filename: pool/stable/o/opensand-core/libopensand-plugin-dbg_8.0.0_amd64.deb
+Size: 14811400
+SHA256: b5f2b706bccd103b2492a5d4229bf8d01fa0e686990af7f74eb4caa02e4880b1
+SHA1: 617eea16a127a1f5fe102b4e365aa142cb11bfa2
+MD5sum: 9140602d6fdcc4646965430b6d57b5c8
+Description: Debugging symbols for OpenSAND plugins' library
+
+Package: libopensand-plugin-dev
+Source: opensand-core
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 120
+Depends: libopensand-plugin (= 8.0.0)
+Conflicts: libopensand-encap-plugin-dev
+Replaces: libopensand-encap-plugin-dev
+Provides: libopensand-encap-plugin-dev
+Priority: optional
+Section: libdevel
+Filename: pool/stable/o/opensand-core/libopensand-plugin-dev_8.0.0_amd64.deb
+Size: 20932
+SHA256: 1bcd0159050fdb3ce4c4b00d4b000a71305ad0488c77029d1b7a1fc150be8c03
+SHA1: db52b9c96397def76e3f67a54dfb63f3eeb6adaa
+MD5sum: 8a918113ad3fcee27f5710a7a662c429
+Description: The library for OpenSAND plugins
+
+Package: libopensand-rle-encap-plugin
+Source: opensand-rle-encap-plugin
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 124
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopensand-output, libopensand-plugin, librle (>= 1.7.2), libstdc++6 (>= 5.2), opensand-core (= 8.0.0)
+Priority: optional
+Section: libs
+Filename: pool/stable/o/opensand-rle-encap-plugin/libopensand-rle-encap-plugin_8.0.0_amd64.deb
+Size: 33948
+SHA256: 2874eb93611ab618ea07b0a37f90ced646148ac800e058f9aa55db7ad602d49d
+SHA1: 36f136f832d0d9fabe46bb952e31e5627b4a7c5a
+MD5sum: 722078678bb4eb4499671ba316b031f4
+Description: The RLE plugin for OpenSAND
+
+Package: libopensand-rle-encap-plugin-dbg
+Source: opensand-rle-encap-plugin
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 2244
+Depends: libopensand-rle-encap-plugin (= 8.0.0)
+Priority: optional
+Section: debug
+Filename: pool/stable/o/opensand-rle-encap-plugin/libopensand-rle-encap-plugin-dbg_8.0.0_amd64.deb
+Size: 401514
+SHA256: ac51b9a3a3ffd05e897d41803d0f81a5cc3061fb864769d7385c8d846621184e
+SHA1: 8f07b911aab0f34ccd915cf80c0e919926c601c9
+MD5sum: 0a37c74d49a32e5c337330e1e97957e0
+Description: Debugging symbols for OpenSAND RLE plugin
+
+Package: libopensand-rt
+Source: opensand-rt
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 129
+Depends: libc6 (>= 2.15), libgcc-s1 (>= 3.0), libopensand-output, libstdc++6 (>= 5.2)
+Conflicts: opensand-margouilla
+Provides: opensand-margouilla
+Priority: optional
+Section: libs
+Filename: pool/stable/o/opensand-rt/libopensand-rt_8.0.0_amd64.deb
+Size: 36072
+SHA256: 5b7e53ae471b348054b57340c8dc63fe6d1ba97eee1a1ccb4a51a327209e409e
+SHA1: a417376cd22f069b53135bc462ff5b9a1d9ed87e
+MD5sum: d7cac94b3ae8cbc47c08db8dc8b8dc87
+Description: The runtime library for OpenSAND
+
+Package: libopensand-rt-dbg
+Source: opensand-rt
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 2950
+Depends: libopensand-rt (= 8.0.0)
+Conflicts: opensand-margouilla-dbg
+Provides: opensand-margouilla-dbg
+Priority: optional
+Section: debug
+Filename: pool/stable/o/opensand-rt/libopensand-rt-dbg_8.0.0_amd64.deb
+Size: 657040
+SHA256: 1d86cf4be281509db3a07b010ec652fa4091d8c98d6c60f4a92451e2963afcaf
+SHA1: 6f7e7fd424989975e64deff99c46c8f53a3191f9
+MD5sum: 05b4c2bd6ea28e6b15ac3bada86b9937
+Description: Debugging symbols for OpenSAND runtime library
+
+Package: libopensand-rt-dev
+Source: opensand-rt
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 117
+Depends: libopensand-rt (= 8.0.0)
+Conflicts: opensand-margouilla-dev
+Provides: opensand-margouilla-dev
+Priority: optional
+Section: libdevel
+Filename: pool/stable/o/opensand-rt/libopensand-rt-dev_8.0.0_amd64.deb
+Size: 16936
+SHA256: 57ad90ec79c6c6de77664d58e1d98bb75c027b0cb7d51a1e57f7ea994cc109ca
+SHA1: b14aef0b31f5de8cceffc7a6adc33ae331b329ce
+MD5sum: 89e82b58aef637ab9bd47ca48a912870
+Description: The runtime library and headers for OpenSAND
+
+Package: librle
+Version: 1.7.4
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 72
+Depends: libc6 (>= 2.14)
+Priority: optional
+Section: libs
+Filename: pool/stable/libr/librle/librle_1.7.4_amd64.deb
+Size: 22904
+SHA256: 0133e71df1b09bde41c9c8c1c855056f93582dcd18791dbc962c4d3978e74940
+SHA1: 8faed50917a02147c090dccf615da5ae2b989093
+MD5sum: 38a9a078f52c7531883f47dd1ffa4271
+Description: Return Link Encapsulation library for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+
+Package: librle-dbg
+Source: librle
+Version: 1.7.3
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 99
+Depends: librle (= 1.7.3)
+Priority: optional
+Section: debug
+Filename: pool/stable/libr/librle/librle-dbg_1.7.3_amd64.deb
+Size: 80080
+SHA256: 9f76b032cf8a8c379163bf4c2ceb8a9d3beaf16d2ab64431738dafcd4d25fcc7
+SHA1: d305a32c0f75b87b0afdef7a19b99fc6b59e9512
+MD5sum: 70813b27f46c2c2876607f2577fd6793
+Description: Return Link Encapsulation library for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+Build-Ids: 5a8be0cf07cdf65afd7352a618436d003c708c23
+
+Package: librle-dbgsym
+Package-Type: ddeb
+Source: librle
+Version: 1.7.4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 97
+Depends: librle (= 1.7.4)
+Breaks: librle-dbg (<< 1.7.4~)
+Replaces: librle-dbg (<< 1.7.4~)
+Priority: optional
+Section: debug
+Filename: pool/stable/libr/librle/librle-dbgsym_1.7.4_amd64.deb
+Size: 79264
+SHA256: 218f68c2ce3a492273dd26bb66cb21f3267dccdea69c578da0defc40ac2a3cb0
+SHA1: cc2d44734f4602660010658955bd38a754b4d5d3
+MD5sum: 4b40f6d5f9458816e8112759c9a6c0ce
+Description: debug symbols for librle
+Build-Ids: 5a8be0cf07cdf65afd7352a618436d003c708c23
+
+Package: librle-dev
+Source: librle
+Version: 1.7.4
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 52
+Depends: librle (= 1.7.4)
+Priority: optional
+Section: libdevel
+Filename: pool/stable/libr/librle/librle-dev_1.7.4_amd64.deb
+Size: 9906
+SHA256: 9f65f7b6c536f3630525486c226dd12c0cd95431178ecbf4ddf05c91dee0b309
+SHA1: ef6c81c224a135b5512bb74a94a249f0acad371a
+MD5sum: 081702de4dc3a47a8017483033ca4512
+Description: Return Link Encapsulation library and headers for Linux
+ A C library that implements the RLE (Return Link Encapsulation) protocol
+ as defined by ETSI TS 103 179 V1.1.1 (2013-08).
+
+Package: openbach-api
+Version: 3.11.5
+Architecture: amd64
+Maintainer: OpenBACH Maintainers <admin@openbach.org>
+Installed-Size: 747
+Depends: python3-matplotlib, python3-pandas, python3-requests, python3:any (>= 3.8~)
+Priority: optional
+Section: misc
+Filename: pool/stable/o/openbach-api/openbach-api_3.11.5_amd64.deb
+Size: 74732
+SHA256: cf5195ff48db7b74689492e38dbc4bddf64a41bb002963354f50997eadd0787b
+SHA1: c9bd77902b8e2c309b72df88bae82da79a3be4ac
+MD5sum: fe84331476462cfb691690f5adf8678b
+Description: APIs to access and manipulate OpenBACH data
+
+Package: opensand
+Source: opensand-meta
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 9
+Depends: opensand-core (>= 8.0.0), libopensand-output (>= 8.0.0), libopensand-rt (>= 8.0.0), libopensand-plugin (>= 8.0.0), libopensand-gse-encap-plugin (>= 8.0.0), libopensand-rle-encap-plugin (>= 8.0.0)
+Homepage: http://www.opensand.org
+Priority: optional
+Section: metapackages
+Filename: pool/stable/o/opensand-meta/opensand_8.0.0_amd64.deb
+Size: 3630
+SHA256: 9f40aebfc6fdbe08ab3f1959f77d8b98d6d3b4cf4072cc59f556caa735a4cb00
+SHA1: 8df44d49b1bae6c5856f7ef8dadea0e656a58ccd
+MD5sum: 9b91df8934343a21c817e7774ce3540b
+Description: Packages for OpenSAND, a satellite emulation platform.
+ This metapackage is to ease the installation of OpenSAND environnment.
+
+Package: opensand-collector
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 30
+Pre-Depends: openjdk-8-jdk
+Depends: debconf (>= 0.5) | debconf-2.0, logstash, influxdb, elasticsearch, kibana, chronograf
+Conflicts: opensand-env-plane
+Replaces: opensand-env-plane
+Provides: opensand-env-plane
+Priority: optional
+Section: misc
+Filename: pool/stable/o/opensand-collector/opensand-collector_8.0.0_amd64.deb
+Size: 8012
+SHA256: b2064bdac658c39eaae0556abf5573058da06a953a036a143c5746b401c0e808
+SHA1: 9f96eb2e63a6411e246aa33e490c2eef64433821
+MD5sum: 65517df779f27e2df38027d737a3fa69
+Description: Statistics and events collector for OpenSAND
+
+Package: opensand-core
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 2479
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libopensand-conf (= 8.0.0), libopensand-output, libopensand-plugin, libopensand-rt, libstdc++6 (>= 9), rsyslog, logrotate
+Conflicts: opensand-core-bin
+Replaces: opensand-core-bin
+Provides: opensand-core-bin
+Priority: optional
+Section: misc
+Filename: pool/stable/o/opensand-core/opensand-core_8.0.0_amd64.deb
+Size: 592866
+SHA256: 35689b83bc8937158e13979f7d23ad368536b32cdbe98a005c0a133d5075dfa2
+SHA1: 1a3d95a5b4483d2a429edec0f32d164da0984668
+MD5sum: 8caecbbe60eef31146b34939e3d9a410
+Description: The OpenSAND emulation testbed core
+  OpenSAND is an emulation testbed aiming to represent in a cost effective way a
+  satellite telecommunication system for research and engineering activities.
+
+Package: opensand-core-dbg
+Source: opensand-core
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 14
+Depends: opensand-core (= 8.0.0)
+Priority: optional
+Section: debug
+Filename: pool/stable/o/opensand-core/opensand-core-dbg_8.0.0_amd64.deb
+Size: 6578
+SHA256: fe189219c7a9ce53a82d8695fae0731da41951454169a5e8c7b3b2cacaab3ca5
+SHA1: b92afcaa70fb606c261c9aa04fd93e96b7512d15
+MD5sum: 3cc079dd54fdffcab18787203ee94c8c
+Description: Debugging symbols for OpenSAND Core binaries
+  OpenSAND is an emulation testbed aiming to represent in a cost effective way a
+  satellite telecommunication system for research and engineering activities.
+
+Package: opensand-deploy
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 6526
+Depends: libopensand-conf (= 8.0.0), python3-flask, python3-flask-cors, uwsgi, uwsgi-plugin-python3, python3-fabric, python3-decorator, nginx, nginx-extras
+Priority: optional
+Section: misc
+Filename: pool/stable/o/opensand-deploy/opensand-deploy_8.0.0_amd64.deb
+Size: 1298390
+SHA256: 66379098a443275bd147bb836d7fe9fa41855ca7b9c77abf5b476378f10fac74
+SHA1: 6ce21de093af603e11f90827506b86cc852554a1
+MD5sum: 66d605aeb60b447db3353a6caf3c389e
+Description: The configuration files generator for the OpenSAND emulation testbed
+  OpenSAND is an emulation testbed aiming to represent in a cost effective way a
+  satellite telecommunication system for research and engineering activities.
+
+Package: opensand-network
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenSAND Maintainers <admin@opensand.org>
+Installed-Size: 50
+Depends: python3, python3-netifaces, bridge-utils, iproute2
+Priority: optional
+Section: misc
+Filename: pool/stable/o/opensand-network/opensand-network_8.0.0_amd64.deb
+Size: 11218
+SHA256: f504193c09b64dd94431d0a38a6f8e90629ee71293f9101150f06ad7d01f28e8
+SHA1: 88e203522d8cc589d02e8214908dd54c256b3621
+MD5sum: b652a672debc77d47662a431520966e3
+Description: Script to configure OpenSAND entity network (sat, gw, st, gw_net_acc or gw_phy)
+
+Package: pepsal
+Version: 2.0.2
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 86
+Depends: libc6 (>= 2.12), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/stable/p/pepsal/pepsal_2.0.2_amd64.deb
+Size: 25168
+SHA256: d686a18c1db09a816600e705ef5da0078d9fdc37e61dfa4dac13b00fe585e4ec
+SHA1: 7326003ca008a55e6c004589f8bbc6ded2775af5
+MD5sum: bbd4f477453c56649d4dd54b1728ee2f
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+

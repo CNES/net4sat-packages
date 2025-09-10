@@ -1,0 +1,33 @@
+Package: collect-agent
+Version: 1.4.3~dev~1757514756
+Architecture: arm64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 247
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), rsyslog, python3 (>= 3.5)
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/testing/c/collect-agent/collect-agent_1.4.3~dev~1757514756_arm64.deb
+Size: 83016
+SHA256: d314acdf3ee9b8eebf1dcb06e8dadaa76ecbb73f16a7059c1bca81b2458c2c22
+SHA1: fbd43645398ba1e32c3b6f1992d33d523761e5d3
+MD5sum: c9fec73bb46189a306b8e457fc0b6ef1
+Description: OpenBACH collect-agent API
+
+Package: pepsal
+Version: 2.0.1~dev~1753278767
+Architecture: arm64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/testing/p/pepsal/pepsal_2.0.1~dev~1753278767_arm64.deb
+Size: 25878
+SHA256: dd5fea91d18ba03c4f355acd1e639feb4573f1af5232047e46e6be9a27bf212e
+SHA1: 4f935ee9bceb843f5afb318e03a5f5695ef90c43
+MD5sum: 5aa72535e511d3b826f41a6202f2388d
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+

@@ -1,0 +1,69 @@
+Package: collect-agent
+Version: 1.4.3~dev~1757516187
+Architecture: arm64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 247
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), rsyslog, python3 (>= 3.5)
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/dev/c/collect-agent/collect-agent_1.4.3~dev~1757516187_arm64.deb
+Size: 83016
+SHA256: 9ac80809361ddb143a9dfb34aabb1a4129a1390b0b36d9633349e6ab45c8e8b4
+SHA1: 75a16aa278f3692a52d4a0fa5653aca2d302a18c
+MD5sum: bfc2f9eb25adcade453c5ee7c64c32eb
+Description: OpenBACH collect-agent API
+
+Package: d-itg-openbach
+Version: 2.8.1-2-1
+Architecture: arm64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 376
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/dev/d/d-itg-openbach/d-itg-openbach_2.8.1-2-1_arm64.deb
+Size: 125414
+SHA256: aaa764d0c35f09a2ea766cd52ac945a85b021edc7759a7ff03cefcac3985e9a2
+SHA1: c7bdf138263187c4fd0ebc3e7ba802f43dc991f5
+MD5sum: c1e3a371b708c94fa1124b1f5a6bec35
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: iperf3-openbach
+Version: 3.10.1-1
+Architecture: arm64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 520
+Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0~~alpha1)
+Conflicts: iperf3, libiperf0
+Provides: iperf3, libiperf0
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/dev/i/iperf3-openbach/iperf3-openbach_3.10.1-1_arm64.deb
+Size: 126024
+SHA256: b250e06f268e9865694d9a4572188e4ebff9b900db1538f65ab32f7846adebf3
+SHA1: c1181f44718dec19d70b8e40a2b875f003137288
+MD5sum: 8b982c64de5f68180e7beab7082ef00a
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: pepsal
+Version: 2.0.2~dev~1753280853
+Architecture: arm64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/dev/p/pepsal/pepsal_2.0.2~dev~1753280853_arm64.deb
+Size: 25906
+SHA256: 690d14ffed9ec4094ddb4eb4e47032aeaf74b083e58f7fbfea334c168bab751a
+SHA1: 89d7628f375e6a803da5904fe72c5a86b7506bc4
+MD5sum: be61b4d4042cb5d6d2fb45d39bb8e603
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+
