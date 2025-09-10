@@ -16,6 +16,13 @@ sudo mkdir /etc/apt/keyrings
 curl -sS https://raw.githubusercontent.com/CNES/net4sat-packages/master/gpg/net4sat.gpg.key | gpg --dearmor | sudo dd of=/etc/apt/keyrings/net4sat.gpg
 ```
 
+Depending on your system, you may need to also change the reading rights
+of the file, so APT can read it:
+
+```
+sudo chmod a+r /etc/apt/keyrings/net4sat.gpg
+```
+
 Next, you'll want to instruct APT that you want to fetch packages from
 this PPA. Run the following command to create the appropriate file in
 the `/etc/apt/sources.list.d/` folder:
@@ -30,7 +37,7 @@ Signed-By: /etc/apt/keyrings/net4sat.gpg
 EOF
 ```
 
-Change `focal` by `jammy` if appropriate.
+Change `focal` by `jammy`, `noble`, `bookworm` or `trixie` if appropriate.
 
 You can also use the `dev` or `testing` components instead of or alongside `stable` depending on your needs.
 
