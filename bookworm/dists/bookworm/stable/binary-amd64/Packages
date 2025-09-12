@@ -67,6 +67,22 @@ MD5sum: 4d88683928d5e90f078112146041eef0
 Description: debug symbols for d-itg-openbach
 Build-Ids: 89f3e99210835d5e306d3e64c2b76341c2a79f76 9084104df3eb0f81c534bdf5731bd346c0c4d6ec b0b21d78e19028c1f8e67c4d814d2969f7d6e2f2 dcb9eb93eed2fae8b07b08fa218c6ea1f64dc716 ef1a53c5cf1c9aab1e5fcddece214fd376f7014c ff836210a56b9f60ff4d442cb90456685a37b84c
 
+Package: dambox
+Version: 1.0
+Architecture: amd64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 73
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libnetfilter-queue1 (>= 1.0.2), libnfnetlink0 (>= 1.0.2), libstdc++6 (>= 12), libnetfilter-queue-dev
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/stable/d/dambox/dambox_1.0_amd64.deb
+Size: 19080
+SHA256: 4d4f495094f0bc1b6f6a1c7768f6d39da5b219c0f7ad2d2a5808ca268235e1d5
+SHA1: 064610cd1e909c19485a50758961ad833f6ac7e0
+MD5sum: cb247f7017b9c686c841bf365ff2599a
+Description: DamBox package
+
 Package: iperf3-openbach
 Version: 3.10.1-1
 Architecture: amd64

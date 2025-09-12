@@ -1,3 +1,19 @@
+Package: dambox
+Version: 1.0
+Architecture: amd64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 73
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libnetfilter-queue1 (>= 1.0.2), libnfnetlink0 (>= 1.0.2), libstdc++6 (>= 13.1), libnetfilter-queue-dev
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/stable/d/dambox/dambox_1.0_amd64.deb
+Size: 19012
+SHA256: 82aeefc639dcd5fd1611202b7ddbc7c8531cad52ebdfcfbc7c90aca1e4863dab
+SHA1: 48384837c0d504f6d1a84def7d94f21b9f5a564d
+MD5sum: b7d97c5012dcdbafe3a0c2d9fe77138d
+Description: DamBox package
+
 Package: libgse
 Version: 1.2.2
 Architecture: amd64
