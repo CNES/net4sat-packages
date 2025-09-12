@@ -1,3 +1,38 @@
+Package: d-itg-openbach
+Version: 2.8.1-2-1
+Architecture: amd64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 402
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/dev/d/d-itg-openbach/d-itg-openbach_2.8.1-2-1_amd64.deb
+Size: 117460
+SHA256: be38398c62b4c92c02dd87a9d8b486de738e5187e839959fe3c146ba604959d9
+SHA1: 3c41d76d50d008b5ca5157bdfca7edb78b1efda1
+MD5sum: c3c9e51bb7c9990dd800fc890ba4d784
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: d-itg-openbach-dbgsym
+Source: d-itg-openbach
+Version: 2.8.1-2-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 205
+Depends: d-itg-openbach (= 2.8.1-2-1)
+Priority: optional
+Section: debug
+Filename: pool/dev/d/d-itg-openbach/d-itg-openbach-dbgsym_2.8.1-2-1_amd64.deb
+Size: 22508
+SHA256: 2c87b4f6081e9828ffbe83dd980313e9e6b20ae47fd24bdf190684fa479bbede
+SHA1: 60a8f80486519f4dfb511d7ef1d7787dfb99124d
+MD5sum: a49ca4cd98dd8efce4b6507009d95206
+Description: debug symbols for d-itg-openbach
+Build-Ids: 523bb1d6ecba8ad9847e5b69927ffa6fd85093c9 54b86d2960e2e6925aa90f0cf2920c03446d24dc acea411db18509afd041a65723f27c82287b786f cf16ed23c021e6f7b3e24c197e519a8d33919154 d7a2acf39825ae88652ec286a5d4d27a634a9770 db91df2485fd8b897d90cb9e3756f9488b68e289
+
 Package: dambox
 Version: 1.0
 Architecture: amd64
