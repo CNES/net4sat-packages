@@ -49,6 +49,43 @@ SHA1: 48384837c0d504f6d1a84def7d94f21b9f5a564d
 MD5sum: b7d97c5012dcdbafe3a0c2d9fe77138d
 Description: DamBox package
 
+Package: iperf3-openbach
+Version: 3.10.1-1
+Architecture: amd64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 530
+Depends: libc6 (>= 2.38)
+Conflicts: iperf3, libiperf0
+Provides: iperf3, libiperf0
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/dev/i/iperf3-openbach/iperf3-openbach_3.10.1-1_amd64.deb
+Size: 112496
+SHA256: f02fb80bea0789f28ed2d2c940c0accb5c2c759f1b60ab0bb776b54172866a3c
+SHA1: 13e8875536f245045628ba916d46fb1022714ff0
+MD5sum: d5e02729cc03e0de63c24673945f5bbd
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: iperf3-openbach-dbgsym
+Source: iperf3-openbach
+Version: 3.10.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenBACH support Team <support@openbach.org>
+Installed-Size: 205
+Depends: iperf3-openbach (= 3.10.1-1)
+Priority: optional
+Section: debug
+Filename: pool/dev/i/iperf3-openbach/iperf3-openbach-dbgsym_3.10.1-1_amd64.deb
+Size: 166056
+SHA256: 4029b0ffe15064e63d9dadd4e8c39fd6606e0c2bcbe004b40b473111099a792d
+SHA1: e508e66365399cda8356504a9eedc7a650482154
+MD5sum: 0834a7fccf6c960a4ae025435ec21c60
+Description: debug symbols for iperf3-openbach
+Build-Ids: a0bd1f5dce4d65ec8f1a0213c4dda5507e0c1496 eaf93d982a8da4ac49d35cbe7f442e1850c51ae3
+
 Package: libgse
 Version: 1.2.2~dev~1757513628
 Architecture: amd64
