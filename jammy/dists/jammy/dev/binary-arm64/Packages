@@ -51,18 +51,18 @@ Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: pepsal
-Version: 2.0.2~dev~1753280853
+Version: 2.0.2~dev~1757683097
 Architecture: arm64
 Maintainer: PEPSal Maintainers <admin@pepsal.org>
 Installed-Size: 82
 Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
 Priority: optional
 Section: misc
-Filename: pool/dev/p/pepsal/pepsal_2.0.2~dev~1753280853_arm64.deb
-Size: 25906
-SHA256: 690d14ffed9ec4094ddb4eb4e47032aeaf74b083e58f7fbfea334c168bab751a
-SHA1: 89d7628f375e6a803da5904fe72c5a86b7506bc4
-MD5sum: be61b4d4042cb5d6d2fb45d39bb8e603
+Filename: pool/dev/p/pepsal/pepsal_2.0.2~dev~1757683097_arm64.deb
+Size: 25912
+SHA256: 8654175f5911f6520adaaed80abae61f4b964479e2107927875557a71f92d693
+SHA1: 0d9925878bffc1f8590888b3915d86e2b44b95ae
+MD5sum: c12462e3771b70e0398d468a6602d015
 Description: PEPSal Performance Enhancing Proxy
   PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
   for satellite links.
