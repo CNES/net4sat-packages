@@ -540,18 +540,18 @@ Description: Return Link Encapsulation library and headers for Linux
  as defined by ETSI TS 103 179 V1.1.1 (2013-08).
 
 Package: openbach-api
-Version: 3.11.5~dev~1752240306
+Version: 3.11.5~dev~1758108118
 Architecture: amd64
 Maintainer: OpenBACH Maintainers <admin@openbach.org>
 Installed-Size: 747
 Depends: python3-matplotlib, python3-pandas, python3-requests, python3:any (>= 3.8~)
 Priority: optional
 Section: misc
-Filename: pool/dev/o/openbach-api/openbach-api_3.11.5~dev~1752240306_amd64.deb
+Filename: pool/dev/o/openbach-api/openbach-api_3.11.5~dev~1758108118_amd64.deb
 Size: 74764
-SHA256: a4b5476aed95ef91392b1599d1dee9b5e5c5766f3ce611d8800a20150ed807ed
-SHA1: 1d689320aeff518ea02e52384197595104054f11
-MD5sum: c6e5b078e7ee144a839a0101e1c8b78c
+SHA256: bf582fc7a8d13512a22b62cf17bd101d2e7253dc0eb85d2cadd3a921f53a75c6
+SHA1: 627204ea93c59f64605a4eaed26ddeda889bb31b
+MD5sum: a970ee940141345d60caad499cb569ce
 Description: APIs to access and manipulate OpenBACH data
 
 Package: opensand
