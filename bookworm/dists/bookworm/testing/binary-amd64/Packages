@@ -1,5 +1,5 @@
 Package: collect-agent
-Version: 1.4.3~dev~1758126107
+Version: 1.4.4~dev~1758289946
 Architecture: amd64
 Maintainer: OpenBACH maintainers <admin@openbach.org>
 Installed-Size: 301
@@ -7,30 +7,30 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), rsyslog, pytho
 Homepage: http://www.openbach.org/
 Priority: optional
 Section: misc
-Filename: pool/testing/c/collect-agent/collect-agent_1.4.3~dev~1758126107_amd64.deb
-Size: 84656
-SHA256: 2c4485d1b5e9a494ceb7a1642aa230041d8ab141ce0d6d0b4494641d13b26198
-SHA1: 1a8c6728fdee3fa13a88ae9eb9d932a9f097c5cb
-MD5sum: d60e17c7ee4f2b90d4aa71673193cb88
+Filename: pool/testing/c/collect-agent/collect-agent_1.4.4~dev~1758289946_amd64.deb
+Size: 85400
+SHA256: 817548c65d3671326e31610e63296aab09b0a4ffd23de0583b18f334fce553b1
+SHA1: 4ea5f623e53349853dd947858d52bc1e77b801ec
+MD5sum: bce5346dbc6b6074c9868fe2d6ee1401
 Description: OpenBACH collect-agent API
 
 Package: collect-agent-dbgsym
 Source: collect-agent
-Version: 1.4.3~dev~1758126107
+Version: 1.4.4~dev~1758289946
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: OpenBACH maintainers <admin@openbach.org>
-Installed-Size: 817
-Depends: collect-agent (= 1.4.3~dev~1758126107)
+Installed-Size: 821
+Depends: collect-agent (= 1.4.4~dev~1758289946)
 Priority: optional
 Section: debug
-Filename: pool/testing/c/collect-agent/collect-agent-dbgsym_1.4.3~dev~1758126107_amd64.deb
-Size: 768952
-SHA256: 13c26be5c4894e938fd22a714d8bf07a91a03dd3e4a71de95cb89865e5d74b7b
-SHA1: 3dd517ae6ebe262a7f7f35364012e57c86d572b7
-MD5sum: fdc0788f37f5f8218a1173d0688f176b
+Filename: pool/testing/c/collect-agent/collect-agent-dbgsym_1.4.4~dev~1758289946_amd64.deb
+Size: 772828
+SHA256: 9165193263df590256acf08c1d3d3b7a0b63c61a95c084c1c730c37ef7cb1ba1
+SHA1: 5bfaf6f5344c61f96fedc130f418ba2c3aad500d
+MD5sum: 972fccbc6617f260ef38fcdd97a87090
 Description: debug symbols for collect-agent
-Build-Ids: 49334a31072fa40e4cd2de1783413a102187dd1a dc8bd5a2caf2a7893d4e2e90efd4613e5ce377ea
+Build-Ids: acf2e06297f456a891532de2b82be4505bbd67f6 b19125657138add0def1d28576bfd280648ed4d1
 
 Package: libopensand-conf
 Source: opensand-conf
