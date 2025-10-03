@@ -1,0 +1,5 @@
+Component: dev
+Origin: github.com/CNES/net4sat-packages/noble
+Label: APT Repository
+Architecture: arm64
+Description: Collection of metrology, testing and simulation tools

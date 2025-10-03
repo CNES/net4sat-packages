@@ -1,0 +1,5 @@
+Component: testing
+Origin: github.com/CNES/net4sat-packages/jammy
+Label: APT Repository
+Architecture: amd64
+Description: Collection of metrology, testing and simulation tools

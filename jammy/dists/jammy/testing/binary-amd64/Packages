@@ -1,0 +1,48 @@
+Package: collect-agent
+Version: 1.4.4~dev~1758289946
+Architecture: amd64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 275
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), rsyslog, python3 (>= 3.5)
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/testing/c/collect-agent/collect-agent_1.4.4~dev~1758289946_amd64.deb
+Size: 88188
+SHA256: bba385fa0f1a1b5bdc665ce261a61b18e6c706f3672319b0136fedf202d03146
+SHA1: 1585919fc8f6241adb55edef1f54efbe90d5b73a
+MD5sum: a65e13237d3876b626e2f2bf7be76460
+Description: OpenBACH collect-agent API
+
+Package: openbach-api
+Version: 3.11.5~dev~1758619552
+Architecture: amd64
+Maintainer: OpenBACH Maintainers <admin@openbach.org>
+Installed-Size: 746
+Depends: python3-matplotlib, python3-pandas, python3-requests, python3:any (>= 3.8~)
+Priority: optional
+Section: misc
+Filename: pool/testing/o/openbach-api/openbach-api_3.11.5~dev~1758619552_amd64.deb
+Size: 75382
+SHA256: 71fd5ce824fdf2a8181a5ca297b05bbfd33c3e3e0a85d47f4009a11c07a16eca
+SHA1: 6240302bd72906ca772de1d01331e04595874bd6
+MD5sum: c15dedfdccf2c1657b3f8d519df236cf
+Description: APIs to access and manipulate OpenBACH data
+
+Package: pepsal
+Version: 2.0.1~dev~1753278737
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 82
+Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/testing/p/pepsal/pepsal_2.0.1~dev~1753278737_amd64.deb
+Size: 26520
+SHA256: 68dcafd4a591a6a9c269d81a92a027f1b32a0033ec1d5ad8883693484d764fd7
+SHA1: e11e3d9bda195330d48eeeb84528832f648cd185
+MD5sum: 20ec5bec2e13f5368267d9af882c99c4
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+

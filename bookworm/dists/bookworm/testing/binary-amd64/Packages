@@ -1,0 +1,84 @@
+Package: collect-agent
+Version: 1.4.4~dev~1758289946
+Architecture: amd64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 301
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), rsyslog, python3 (>= 3.5)
+Homepage: http://www.openbach.org/
+Priority: optional
+Section: misc
+Filename: pool/testing/c/collect-agent/collect-agent_1.4.4~dev~1758289946_amd64.deb
+Size: 85400
+SHA256: 817548c65d3671326e31610e63296aab09b0a4ffd23de0583b18f334fce553b1
+SHA1: 4ea5f623e53349853dd947858d52bc1e77b801ec
+MD5sum: bce5346dbc6b6074c9868fe2d6ee1401
+Description: OpenBACH collect-agent API
+
+Package: collect-agent-dbgsym
+Source: collect-agent
+Version: 1.4.4~dev~1758289946
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: OpenBACH maintainers <admin@openbach.org>
+Installed-Size: 821
+Depends: collect-agent (= 1.4.4~dev~1758289946)
+Priority: optional
+Section: debug
+Filename: pool/testing/c/collect-agent/collect-agent-dbgsym_1.4.4~dev~1758289946_amd64.deb
+Size: 772828
+SHA256: 9165193263df590256acf08c1d3d3b7a0b63c61a95c084c1c730c37ef7cb1ba1
+SHA1: 5bfaf6f5344c61f96fedc130f418ba2c3aad500d
+MD5sum: 972fccbc6617f260ef38fcdd97a87090
+Description: debug symbols for collect-agent
+Build-Ids: acf2e06297f456a891532de2b82be4505bbd67f6 b19125657138add0def1d28576bfd280648ed4d1
+
+Package: openbach-api
+Version: 3.11.5~dev~1758619536
+Architecture: amd64
+Maintainer: OpenBACH Maintainers <admin@openbach.org>
+Installed-Size: 746
+Depends: python3-matplotlib, python3-pandas, python3-requests, python3:any (>= 3.8~)
+Priority: optional
+Section: misc
+Filename: pool/testing/o/openbach-api/openbach-api_3.11.5~dev~1758619536_amd64.deb
+Size: 74676
+SHA256: 8abbfef46f0cf646ee8d3fc020f2cb3765eec2fb7dee6d96de7b3f948d84c3a0
+SHA1: 9cca5633a142d79947c3aa8ae004f5438f9ebd49
+MD5sum: 0a8fe5a7f594c9f9f546f8393676dcf6
+Description: APIs to access and manipulate OpenBACH data
+
+Package: pepsal
+Version: 2.0.1~dev~1753278736
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 83
+Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Priority: optional
+Section: misc
+Filename: pool/testing/p/pepsal/pepsal_2.0.1~dev~1753278736_amd64.deb
+Size: 24456
+SHA256: d77870d55fd4726efce460657647771e191371ddc2fe22fc7ee42d5444803b79
+SHA1: 1e83e1e87f9b84a7c1b56d0105c9f53058ac9c18
+MD5sum: caa4ae374726f6c694c751b5b95e9887
+Description: PEPSal Performance Enhancing Proxy
+  PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
+  for satellite links.
+
+Package: pepsal-dbgsym
+Source: pepsal
+Version: 2.0.1~dev~1753278736
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: PEPSal Maintainers <admin@pepsal.org>
+Installed-Size: 22
+Depends: pepsal (= 2.0.1~dev~1753278736)
+Priority: optional
+Section: debug
+Filename: pool/testing/p/pepsal/pepsal-dbgsym_2.0.1~dev~1753278736_amd64.deb
+Size: 5274
+SHA256: 48044edc1c296d5fbbbd92080c3a75dec6fa0da4ff3738c84d53be5faed1e75b
+SHA1: b5a6174fe0108ef7d716af878d6f9e1bd6f28bc9
+MD5sum: ed69ef865d1df31c7fed03bf36317fda
+Description: debug symbols for pepsal
+Build-Ids: 11abc4bbc7fa25ec7acfa5468fd7113d4cd99d10
+
