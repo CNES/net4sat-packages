@@ -1,7 +1,7 @@
 Origin: github.com/CNES/net4sat-packages/bookworm
 Label: APT Repository
 Codename: trixie
-Date: Fri, 03 Oct 2025 09:24:29 UTC
+Date: Mon, 06 Oct 2025 11:18:28 UTC
 Architectures: amd64
 Components: stable dev testing
 Description: Collection of metrology, testing and simulation tools
@@ -12,8 +12,8 @@ MD5Sum:
  9031c37ce07069ba6bc018ab8460f022 30831 dev/binary-amd64/Packages
  3f1cc7982ce36813175356fdbdcf1933 8026 dev/binary-amd64/Packages.gz
  fc283b89c0657a67d8767f7d04cec943 174 dev/binary-amd64/Release
- 8da691108aa306c0a10a04d3cecb38f5 23767 testing/binary-amd64/Packages
- 85d5d5386aa77fd482fd3d9fb7bb8365 5614 testing/binary-amd64/Packages.gz
+ 38d3a9f5e70158236319d3e75278f557 23767 testing/binary-amd64/Packages
+ b274373a726e732ea997c3ab9c5dae5d 5622 testing/binary-amd64/Packages.gz
  1107c65773cbe71549fa685b17eb2f76 178 testing/binary-amd64/Release
 SHA1:
  ab2d4f46a8aa28784f38760adfe435b358c632b7 28738 stable/binary-amd64/Packages
@@ -22,8 +22,8 @@ SHA1:
  52253f126b1af9f2433da2a699376c35e3a29c80 30831 dev/binary-amd64/Packages
  7c2ce9d3bc9bf8028e6361d955684638ed11c4ad 8026 dev/binary-amd64/Packages.gz
  9661a2293443e745210c118c772d001270718be0 174 dev/binary-amd64/Release
- 20b9e0e24f6e79dff1cfb4b140222bb887b5b3ad 23767 testing/binary-amd64/Packages
- 817ff6b4258dd1cb8e9289670515eaa424f0a4a5 5614 testing/binary-amd64/Packages.gz
+ c0ba9de5e6ed64245a7941d6f3cbc9fffaac14b9 23767 testing/binary-amd64/Packages
+ 99c4f1301a2783accb90f40306486926e2c4b110 5622 testing/binary-amd64/Packages.gz
  227b7e4daf2b20a03952bb857b6011abc715ef09 178 testing/binary-amd64/Release
 SHA256:
  14825cab88e60e723043f10a4c4df6b47e8bea6d7917c7e5933d04b593b41717 28738 stable/binary-amd64/Packages
@@ -32,6 +32,6 @@ SHA256:
  a626b151223a34d993fadc864978b67c4c7985937a61d2947bc7233545d9af02 30831 dev/binary-amd64/Packages
  dee8329aaac0463563a0a5e53992f49668c2e39288896b5d335c0ea1acc265a6 8026 dev/binary-amd64/Packages.gz
  51282d9dabde1948c64d8792025e26e669de318fe83277c18e095d08d947c7ba 174 dev/binary-amd64/Release
- 84cd2f11e849aac6f7960834cf7a97be14315a6e0823eaaa1e4ce09813133849 23767 testing/binary-amd64/Packages
- e1fe5ce9510bf4e862d802744ca1ba58d4afe0b2d6006352391fea96c8a16925 5614 testing/binary-amd64/Packages.gz
+ 2e5ed3bd7b5949557df9a3b7c53cc25cf902c3867929e020b155dbe28a4f3c02 23767 testing/binary-amd64/Packages
+ f373d32e53c0fa53d77071aaeb1f4e04a8de51009e6446cb3be7d3ff96aa9a93 5622 testing/binary-amd64/Packages.gz
  6290d5fcd6430d8f5a6c723200f2d5026b6972a175d83b72bd8a5d3799a62683 178 testing/binary-amd64/Release
