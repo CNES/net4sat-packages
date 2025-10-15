@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: github.com/CNES/net4sat-packages/bookworm
 Label: APT Repository
 Codename: trixie
-Date: Wed, 15 Oct 2025 15:25:39 UTC
+Date: Wed, 15 Oct 2025 15:32:13 UTC
 Architectures: amd64
 Components: stable dev testing
 Description: Collection of metrology, testing and simulation tools
@@ -15,8 +15,8 @@ MD5Sum:
  c7d31317626a179eb24bb9e0b6fed8c9 31016 dev/binary-amd64/Packages
  5e26218954eed753d813a659b021db09 8124 dev/binary-amd64/Packages.gz
  fc283b89c0657a67d8767f7d04cec943 174 dev/binary-amd64/Release
- 56e5d403896475472e65d3b74db0399b 23767 testing/binary-amd64/Packages
- 0fa56fea1f094ba1656e5e7d8e264e2f 5625 testing/binary-amd64/Packages.gz
+ dc45eb040e567dae9f50946fa10b5f98 23767 testing/binary-amd64/Packages
+ 17859be67a989df64ce19c5adadf81ad 5623 testing/binary-amd64/Packages.gz
  1107c65773cbe71549fa685b17eb2f76 178 testing/binary-amd64/Release
 SHA1:
  ab2d4f46a8aa28784f38760adfe435b358c632b7 28738 stable/binary-amd64/Packages
@@ -25,8 +25,8 @@ SHA1:
  eed34282db6c7e37f823b459a0dc23ec1dd6015c 31016 dev/binary-amd64/Packages
  fa1d0ec73509f6a7ddb0ce0c01e6bc0c9dc6c811 8124 dev/binary-amd64/Packages.gz
  9661a2293443e745210c118c772d001270718be0 174 dev/binary-amd64/Release
- 915ea828b3f07c336a9415e2228e0848aaccc9fc 23767 testing/binary-amd64/Packages
- 32ce860833f953e308ff407ce259e5fbe9c4c0f2 5625 testing/binary-amd64/Packages.gz
+ 743e3f691f08a77578c517febbdc8dca9f3ecf31 23767 testing/binary-amd64/Packages
+ 0609c16d3157820188f7bac049255c9bc11f0d53 5623 testing/binary-amd64/Packages.gz
  227b7e4daf2b20a03952bb857b6011abc715ef09 178 testing/binary-amd64/Release
 SHA256:
  14825cab88e60e723043f10a4c4df6b47e8bea6d7917c7e5933d04b593b41717 28738 stable/binary-amd64/Packages
@@ -35,22 +35,22 @@ SHA256:
  d1d55e810a61969be890806224db4f5d12a7cc46e002ac1570a7de8184d41ab8 31016 dev/binary-amd64/Packages
  416a612edd4c1c5b7064f88e7eac53471053a66267818da0de09487688341136 8124 dev/binary-amd64/Packages.gz
  51282d9dabde1948c64d8792025e26e669de318fe83277c18e095d08d947c7ba 174 dev/binary-amd64/Release
- 7b039c4a3a1f7e6f98205f8594bb49caa926e6a78b33c33d6413eddc04fcbb95 23767 testing/binary-amd64/Packages
- 87aa0ca54c4d56c69552a8b19e6973641f1be7f0bc08e1c047c3f8daef1b0ab1 5625 testing/binary-amd64/Packages.gz
+ 7751bf94cd3f448273736e99b947eae9da18f05fc7d0283316a4f8d969df20bd 23767 testing/binary-amd64/Packages
+ 9c25da441a9ce4eb7a01608024015bb3468beeaee61cc8001a3cdbfa9c9d61e9 5623 testing/binary-amd64/Packages.gz
  6290d5fcd6430d8f5a6c723200f2d5026b6972a175d83b72bd8a5d3799a62683 178 testing/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEExkMhO0pJDTEI9HSQTVvGinrPa2gFAmjvvPMACgkQTVvGinrP
-a2j5dxAAmE1a2GpVWrFWgiUAV+W1b/2OB9CxGqirlJuCld5xEGq1FrO/j82zL/Eu
-VM43G83riZf9s6SkJ5EZYDBNxQ22CWK95TG5sxyDk9w0jv6FJkmHpec6UYf1qDLP
-AKs4KS2yg56oP7VuDALTPEvndy5ZHb0dvvwMn/IN0RIqXWcIYh79drVgEJwZCEsj
-VPUQSnI0bjX3/dz3acRoZ1gWtlrcl+z1P2sebySEqunkJdtTuCHGu35myCh2QCBL
-tJ7j94PMpttbI5CvarC751enqWIGgxJek3sTjuuzQXitXwRdcNRw3Avpx+vkU8DH
-rdV3Z4kFPsDALn2M1RkbyGyd9neeusaXMwFvqw2jjohb94pR7U/sejUgpNx4vkRT
-bvoEuQhoh/Shr5pgYBkax3A8CSI/bVXgsrkuQjP1QXuxcJ8OufIRsCWps49D3l/D
-HaUPBLJMw20NePQdLo4NBTdSUUDxgc9zsulARtyODwXFv7FX1Sm1zgg2RPA5/QLD
-76Db4yP+yTrEWIdpSx/9CMCwYEewa8DWagRP8ARxcktFgsh3i/IfwAotdm261vU2
-h92aK40rWI463PnCCVf9KpI65cDp7TL/2l65LiwkxcO+nJn2ktgMRU7qlubB2LOB
-VLZXOioi5iUW1ufr3oJKYIfJKyalFJG4Yz/bifcNehE4EqFYBPI=
-=OhwY
+iQIzBAEBCgAdFiEExkMhO0pJDTEI9HSQTVvGinrPa2gFAmjvvn0ACgkQTVvGinrP
+a2ikLA/9Ef/z6ZGo2B/cnx4p3U4dAhMHteD5/v9hEVnU2MICEDViOSx+pYCUen/t
+DCD16FPg+WOdC/BNOmnPG7ooxRhu3WcKFrTwS4IaGP76qS1H9NrK9sdGWPg22v4I
+3DhfyeEfYKg24sZ7aB02M/UkWNffvsc7cctTkL4bJ4848X9E24X439nZw/dtp3Ia
+04NHLMKwn664ascsRwM2JxHGqz7VZ4fCUmPwMExNW9wFv50BlJlO4UqdQtDoWDl+
+KxvyUgK+5FkGDr52EpUipNRYFrF8LpO6EV8ZHGJChB8Tt6ntY3cKM6ezahjyTJ2P
+jkWCi2NQA/ZsL/FigPFnaPvZX+HEyX/wr9aJSa/4SS8UzY+TJ/RNc5OURgKM6/fj
+quN+N3wxvteJkEvWMHhfVcWMGRyHuhF81o+yVqM3vzTs0ubL8SexKLe8IuqdKUWB
+RkBLxnfUKKY8DPcPd0hDHTfvk2cTDqI/riYlHV/SAg5wsxKVCnxio3ahNkP5Kb97
+bP/SZx74H2ntsqjM7gu6ulZhh8c1zPOXBe3zetiRxcX8yvSdqvBp2FKctjF6a0mg
+qrYn43hmlH/8Jap0osmh0D67zcVznOpduxdFvoPQTHGw+B4FOiE1R/y2L6wrJL4x
+PJTduTXArF48e0EA+r1yXucoFNRvKWF88SMd9E1GQmPR2gLu2Fc=
+=VASt
 -----END PGP SIGNATURE-----
