@@ -1,7 +1,7 @@
 Origin: github.com/CNES/net4sat-packages/jammy
 Label: APT Repository
 Codename: jammy
-Date: Wed, 15 Oct 2025 15:15:07 UTC
+Date: Wed, 15 Oct 2025 15:20:11 UTC
 Architectures: amd64 arm64
 Components: stable dev testing
 Description: Collection of metrology, testing and simulation tools
@@ -18,11 +18,11 @@ MD5Sum:
  0e90c1c86a7c61f4b9eb2cdf5825381f 2527 dev/binary-arm64/Packages
  b928db7554ed478612ae9b60c63b5918 1063 dev/binary-arm64/Packages.gz
  7c8bcdbe48b85c2e4d169abc3ff26429 171 dev/binary-arm64/Release
- aa037125323476510d52493430d291d1 15454 testing/binary-amd64/Packages
- d732fe0122643dd6f4730c2609780c97 3741 testing/binary-amd64/Packages.gz
+ 763d0af0b61d63ceeabc6f099514be3b 15454 testing/binary-amd64/Packages
+ 7b7c6f8b2078b0c26d6d407bf58bf465 3740 testing/binary-amd64/Packages.gz
  86b397b6104a9995d1a5a385a8d4d1e3 175 testing/binary-amd64/Release
- b52db71d09d75037434e25ebd291c4d3 1222 testing/binary-arm64/Packages
- e8e3011846ba57a24f5a65c43d08f2a9 659 testing/binary-arm64/Packages.gz
+ 2c5f998efeaf17ba0c31299fdc9cf647 1222 testing/binary-arm64/Packages
+ deceaa1e0d78172f88a6e918faa3234b 659 testing/binary-arm64/Packages.gz
  a6c4aa3c48125e5c9daa8b2438de253b 175 testing/binary-arm64/Release
 SHA1:
  4c421c283ac1288b0e0701805e457e6a223c73a5 27386 stable/binary-amd64/Packages
@@ -37,11 +37,11 @@ SHA1:
  8918e46727208737a0086715fe7b3749f41d3259 2527 dev/binary-arm64/Packages
  5959232640dcf0960c84b27dda61179898de837a 1063 dev/binary-arm64/Packages.gz
  9a529c2fe6e9933aa924ab437a933239a0096101 171 dev/binary-arm64/Release
- b86e17897aea8bf6fac9a54ad9a242891001a1a3 15454 testing/binary-amd64/Packages
- e2bf0dbb1a3f3c955f84fdba817e204f3858308c 3741 testing/binary-amd64/Packages.gz
+ fc570f90eb474d34e06c509bb426dfe479b888d8 15454 testing/binary-amd64/Packages
+ bb77e82c94a569287a7ef018c95b9776b481ac97 3740 testing/binary-amd64/Packages.gz
  409492abdddee0592f7572098b082e92612af5cc 175 testing/binary-amd64/Release
- 2bbee87a17bebdd3cae550c1214567f2c32c632f 1222 testing/binary-arm64/Packages
- 27e167127cd9665be93308be79a5ffab44361aee 659 testing/binary-arm64/Packages.gz
+ 36f975937929f216a867d6becc607988278ca593 1222 testing/binary-arm64/Packages
+ 62b03de55d384c317111a208d5c7f6a0ef753645 659 testing/binary-arm64/Packages.gz
  d063a9150cf6951c4f59b38d15a3ef82a8b0f0da 175 testing/binary-arm64/Release
 SHA256:
  bf7e0e864ebfed7490eb7a2b998d9a32984117e4422e9ba0e93d3fb1b8a60a1c 27386 stable/binary-amd64/Packages
@@ -56,9 +56,9 @@ SHA256:
  b85932b39287a3fb9ae5ce570aa25fb84654ac3f5d27653d8c57337c5f01d041 2527 dev/binary-arm64/Packages
  5f94796c36a58c50ec9307670d786a628d5df0effb3074b2f40950fbafa9debe 1063 dev/binary-arm64/Packages.gz
  532eb7645f97e96981c10f4f249b5397c03b2c440b9428b2b84671cb8ed9e015 171 dev/binary-arm64/Release
- 84813e84d1bc0af841904fcc058f972e23979fea2857e769a9c598ebb7ae09d5 15454 testing/binary-amd64/Packages
- 5ddecb290016c36698bb84ac851b3f46d524d688df4132924393901bc50b06f5 3741 testing/binary-amd64/Packages.gz
+ a1bf2ddf701ffd5d36fc09bb2fed50851d5f08673462d5c7e53f06fb7d7a0e00 15454 testing/binary-amd64/Packages
+ 3aa0b6e5638365ace96098a6f9fdaaf412a5b01fb56f6d7fe09fe3f4a122ab3a 3740 testing/binary-amd64/Packages.gz
  bdfabcb91a8fa9f2828d292a5664504097ccd54342e2b93c5a3f3acdd3674a3b 175 testing/binary-amd64/Release
- a2badff028266f640a7d96c3da137b11235b2ec84a29b9d06ac5c5c5deb83725 1222 testing/binary-arm64/Packages
- 67dc5b784ad76434672a5e9368c9cc683f3955873ee830a54693e41c93f28cf2 659 testing/binary-arm64/Packages.gz
+ b24205cebf7892654d70b4d33bb305cd880b9e69855bac8bc010f512972a286d 1222 testing/binary-arm64/Packages
+ 913a9a6ba0d9d09bf208432d394b375d16f3d40d93f4dae5b7717e6cd2b4d55e 659 testing/binary-arm64/Packages.gz
  645e2240bbb3cab51a3a462f1abe2af71ebad883b944310bd55e12e6d1b02a68 175 testing/binary-arm64/Release
