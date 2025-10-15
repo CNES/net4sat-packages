@@ -1,36 +1,36 @@
 Package: collect-agent
-Version: 1.4.3~dev~1760541122
+Version: 1.4.4~dev~1760541770
 Architecture: amd64
 Maintainer: OpenBACH maintainers <admin@openbach.org>
-Installed-Size: 308
+Installed-Size: 312
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), rsyslog, python3 (>= 3.5)
 Homepage: http://www.openbach.org/
 Priority: optional
 Section: misc
-Filename: pool/dev/c/collect-agent/collect-agent_1.4.3~dev~1760541122_amd64.deb
-Size: 89780
-SHA256: 1daca9bd664909b1c3dffb73626b4d5144300fe4db1ecfb0d55a297101c54202
-SHA1: 3d841d896d15e7079aa748008e7da7a44b6f922e
-MD5sum: 34a2b981d287b4916145981bbdd4836a
+Filename: pool/dev/c/collect-agent/collect-agent_1.4.4~dev~1760541770_amd64.deb
+Size: 91180
+SHA256: fa1e985475b50710a63eda36865b4a3f09f42f7f20fe029a4cbc33930f62a230
+SHA1: 3b835b53cb656a96e24cca864ca7e50383b5a5ab
+MD5sum: e60913b1bf5830a10b735c9fa6cc4049
 Description: OpenBACH collect-agent API
 
 Package: collect-agent-dbgsym
 Source: collect-agent
-Version: 1.4.3~dev~1760541122
+Version: 1.4.4~dev~1760541770
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: OpenBACH maintainers <admin@openbach.org>
-Installed-Size: 802
-Depends: collect-agent (= 1.4.3~dev~1760541122)
+Installed-Size: 817
+Depends: collect-agent (= 1.4.4~dev~1760541770)
 Priority: optional
 Section: debug
-Filename: pool/dev/c/collect-agent/collect-agent-dbgsym_1.4.3~dev~1760541122_amd64.deb
-Size: 754748
-SHA256: 7b347f22dfc0f320f31e4f6841a18df43c5400951894197e1f58f8f3968e1cf9
-SHA1: bc98ff3fbd7385377d0e15b472e305dce56230c0
-MD5sum: 9dc469d07eb3c706dddcb4f809b7994b
+Filename: pool/dev/c/collect-agent/collect-agent-dbgsym_1.4.4~dev~1760541770_amd64.deb
+Size: 770432
+SHA256: e49378c20af9c6e15e38db502f48e63b09b13adacd24223c8178249dc8d0cc41
+SHA1: 658d8ac7e5d8e6b66113f11a2aab5e7f06ec5efa
+MD5sum: 5b2a00376515d5ba4517dde2192a5684
 Description: debug symbols for collect-agent
-Build-Ids: 5cddeae718177fedaab2d8fc38ca34c46bcdc6df 70021727e472e07c3449e2e9a3eb7b20d03fbaa6
+Build-Ids: 7648e8794401b8e910da344d881a27bf930fda66 eb3947e4a25403a5516fd5a01ff62f72eb02a540
 
 Package: d-itg-openbach
 Version: 2.8.1-2-1
