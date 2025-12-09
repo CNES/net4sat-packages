@@ -1,7 +1,7 @@
 Origin: github.com/CNES/net4sat-packages/noble
 Label: APT Repository
 Codename: noble
-Date: Mon, 01 Dec 2025 17:28:11 UTC
+Date: Tue, 09 Dec 2025 09:32:10 UTC
 Architectures: amd64 arm64
 Components: stable dev testing
 Description: Collection of metrology, testing and simulation tools
@@ -12,8 +12,8 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 stable/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 stable/binary-arm64/Packages.gz
  41f0fcc8c0a2ef1e8f65c8db77e1b869 174 stable/binary-arm64/Release
- c79d9b303e6d1391a13021ea63445451 21362 dev/binary-amd64/Packages
- 038e1c53e0f9662c5d1e85d3984527de 5586 dev/binary-amd64/Packages.gz
+ 6d260d29b359150ae6cef9e98cb330dc 21362 dev/binary-amd64/Packages
+ 17b5376c799122f8f049aaa883e91817 5590 dev/binary-amd64/Packages.gz
  3118acbb62400b7d30a50c56eab3fe7a 171 dev/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 dev/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 dev/binary-arm64/Packages.gz
@@ -31,8 +31,8 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 stable/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 stable/binary-arm64/Packages.gz
  ea4b68cd7a9191bad10f4caf787a865f5042fa7b 174 stable/binary-arm64/Release
- 6fa43ae62659e467eed56eb8f7f025a7f4339417 21362 dev/binary-amd64/Packages
- 62e50e2669c618d41d01a4796daf2e1c355cbd0b 5586 dev/binary-amd64/Packages.gz
+ 50b01c14c51416e721dc4eaa09212235a98d7ccb 21362 dev/binary-amd64/Packages
+ b3150d9ba37695b855b08bece7d9593a59ed7195 5590 dev/binary-amd64/Packages.gz
  c68f06b92d5b008e991442593871d0fee0bc49ad 171 dev/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dev/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 dev/binary-arm64/Packages.gz
@@ -50,8 +50,8 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 stable/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 stable/binary-arm64/Packages.gz
  5dbd6c305c6a0e13b83f8daec5b77d23efc9fcda752eed25e25d1a865587779c 174 stable/binary-arm64/Release
- 9c0704e043d25221543e9cfcb549c7885efe0b2f31c6eb41b8a0ea2cf6c8dd18 21362 dev/binary-amd64/Packages
- 649d14241e8f8d7dc6091d813c75f367ea997af9811d0c1bd7ef36ea968aa470 5586 dev/binary-amd64/Packages.gz
+ f1e47eb65e2f9fdf7c16921e3129d1e568069e0eb4d021571a13f6fe3a73ebab 21362 dev/binary-amd64/Packages
+ 32db74d2712d1a1b09d4735f7391f3965d68a6a6efec724bda5fb39a0fc2994f 5590 dev/binary-amd64/Packages.gz
  8ed7fe975bf6947a09c6a7c90763922759586227d65bed4211e67113c09269a7 171 dev/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dev/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 dev/binary-arm64/Packages.gz
