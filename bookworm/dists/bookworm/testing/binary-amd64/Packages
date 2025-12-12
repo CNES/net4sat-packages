@@ -456,37 +456,37 @@ MD5sum: aa5c5c8f3200add038684d564edd86bd
 Description: Script to configure OpenSAND entity network (sat, gw, st, gw_net_acc or gw_phy)
 
 Package: pepsal
-Version: 2.0.1~dev~1753278736
+Version: 2.0.2~dev~1765538639
 Architecture: amd64
 Maintainer: PEPSal Maintainers <admin@pepsal.org>
-Installed-Size: 83
-Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Installed-Size: 167
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12), lsb-base (>= 3.2-14), rsyslog, logrotate
 Priority: optional
 Section: misc
-Filename: pool/testing/p/pepsal/pepsal_2.0.1~dev~1753278736_amd64.deb
-Size: 24456
-SHA256: d77870d55fd4726efce460657647771e191371ddc2fe22fc7ee42d5444803b79
-SHA1: 1e83e1e87f9b84a7c1b56d0105c9f53058ac9c18
-MD5sum: caa4ae374726f6c694c751b5b95e9887
+Filename: pool/testing/p/pepsal/pepsal_2.0.2~dev~1765538639_amd64.deb
+Size: 55528
+SHA256: cf9e0a5a5c6236a1fa53a85dd9a570212e19858b4718450248a6030df94cb91f
+SHA1: e1f6dfc2eddc13eb42c368d97a00acececc1a902
+MD5sum: f37e9b6423c3bd49336d10886c697147
 Description: PEPSal Performance Enhancing Proxy
   PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
   for satellite links.
 
 Package: pepsal-dbgsym
 Source: pepsal
-Version: 2.0.1~dev~1753278736
+Version: 2.0.2~dev~1765538639
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: PEPSal Maintainers <admin@pepsal.org>
-Installed-Size: 22
-Depends: pepsal (= 2.0.1~dev~1753278736)
+Installed-Size: 55
+Depends: pepsal (= 2.0.2~dev~1765538639)
 Priority: optional
 Section: debug
-Filename: pool/testing/p/pepsal/pepsal-dbgsym_2.0.1~dev~1753278736_amd64.deb
-Size: 5274
-SHA256: 48044edc1c296d5fbbbd92080c3a75dec6fa0da4ff3738c84d53be5faed1e75b
-SHA1: b5a6174fe0108ef7d716af878d6f9e1bd6f28bc9
-MD5sum: ed69ef865d1df31c7fed03bf36317fda
+Filename: pool/testing/p/pepsal/pepsal-dbgsym_2.0.2~dev~1765538639_amd64.deb
+Size: 11402
+SHA256: 65a0b5b151a1be316183e786219ad09633beb3e9efbf08e391d9ce2f734ac302
+SHA1: 49f32a5e5edb81cb51fbf3cdfd76cadf15714a40
+MD5sum: 7836cd0be2b41a67f468641a5fccbec7
 Description: debug symbols for pepsal
-Build-Ids: 11abc4bbc7fa25ec7acfa5468fd7113d4cd99d10
+Build-Ids: 5b245195e515e77a7feed10fb78cc4000f70e2b7
 

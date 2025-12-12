@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: github.com/CNES/net4sat-packages/jammy
 Label: APT Repository
 Codename: jammy
-Date: Wed, 10 Dec 2025 11:28:10 UTC
+Date: Fri, 12 Dec 2025 11:26:50 UTC
 Architectures: amd64 arm64
 Components: stable dev testing
 Description: Collection of metrology, testing and simulation tools
@@ -21,11 +21,11 @@ MD5Sum:
  e58f859a3f1e55fe1775ca0b081c2c8e 2527 dev/binary-arm64/Packages
  4e476c2a942f7a11c017612b6dbf0b2c 1062 dev/binary-arm64/Packages.gz
  7c8bcdbe48b85c2e4d169abc3ff26429 171 dev/binary-arm64/Release
- 29db7f0649cd99694d1c7bb7ce6fb85c 15454 testing/binary-amd64/Packages
- 22feb7130a48de7fc21ae188b4120620 3738 testing/binary-amd64/Packages.gz
+ b4d3ce04616c255818d40670cea575a5 15497 testing/binary-amd64/Packages
+ 7fdfcb1e0d0a656478e21a3474b708ed 3744 testing/binary-amd64/Packages.gz
  86b397b6104a9995d1a5a385a8d4d1e3 175 testing/binary-amd64/Release
- 2c5f998efeaf17ba0c31299fdc9cf647 1222 testing/binary-arm64/Packages
- deceaa1e0d78172f88a6e918faa3234b 659 testing/binary-arm64/Packages.gz
+ 887fa3649393f1dc357ca5056eaa1d72 1265 testing/binary-arm64/Packages
+ 9f6e14b856ca962e434aac675a887902 665 testing/binary-arm64/Packages.gz
  a6c4aa3c48125e5c9daa8b2438de253b 175 testing/binary-arm64/Release
 SHA1:
  47f792cadafa7c604bd308e5c8e2e3fdbf48b9a1 27485 stable/binary-amd64/Packages
@@ -40,11 +40,11 @@ SHA1:
  39a955d235768c6ce17ed90ddc2d63798e850299 2527 dev/binary-arm64/Packages
  af9946344858e6367b64d2d61b74bc53422ac107 1062 dev/binary-arm64/Packages.gz
  9a529c2fe6e9933aa924ab437a933239a0096101 171 dev/binary-arm64/Release
- a4a45c2255cd4eabe3fcfb4df8f2bf4d30ce2fce 15454 testing/binary-amd64/Packages
- fc030c8edf17b8a1f71fdccfc743ccdd6c751b09 3738 testing/binary-amd64/Packages.gz
+ d2e9fd3373530ddce3ca80288d50435bab5c4ea8 15497 testing/binary-amd64/Packages
+ 06f8a1bec9f662c9feeb706a1650fcf40d1c6972 3744 testing/binary-amd64/Packages.gz
  409492abdddee0592f7572098b082e92612af5cc 175 testing/binary-amd64/Release
- 36f975937929f216a867d6becc607988278ca593 1222 testing/binary-arm64/Packages
- 62b03de55d384c317111a208d5c7f6a0ef753645 659 testing/binary-arm64/Packages.gz
+ f4dd298910c39a2de4a7c90d62b76a965af6aed7 1265 testing/binary-arm64/Packages
+ 555def798d1ebedd3608e084dcaf65e719759c8a 665 testing/binary-arm64/Packages.gz
  d063a9150cf6951c4f59b38d15a3ef82a8b0f0da 175 testing/binary-arm64/Release
 SHA256:
  4cdbeeafe9aa40cc9da44342cb8b3bf9eb46721e871df1ed2af795bd6644ef53 27485 stable/binary-amd64/Packages
@@ -59,25 +59,25 @@ SHA256:
  926523a1b9c6a1989f08f91414cc1fef681557f4281f6f607d2c5fc870e936d8 2527 dev/binary-arm64/Packages
  3908a8d377fca3b00a3f1420845ae44f32261f99676e00dc70cdf332527ab3ca 1062 dev/binary-arm64/Packages.gz
  532eb7645f97e96981c10f4f249b5397c03b2c440b9428b2b84671cb8ed9e015 171 dev/binary-arm64/Release
- acb2fe227106828cd8a533ca0964b17a4a568f431262895a4a19d81394cb04e9 15454 testing/binary-amd64/Packages
- b2fb3d0f8599e98a043f3da41200cf9cdf1d37e912759ea3c808f5f919fb9d30 3738 testing/binary-amd64/Packages.gz
+ a7cc7c8907753915c3b0c06ffffbe0fa7d2e1e8aeafde47612985c47e23bf654 15497 testing/binary-amd64/Packages
+ 51190bf1daaeeeb6706c61ec7f0f8ca51ece5c1a3a69f021950e5cbc176a548d 3744 testing/binary-amd64/Packages.gz
  bdfabcb91a8fa9f2828d292a5664504097ccd54342e2b93c5a3f3acdd3674a3b 175 testing/binary-amd64/Release
- b24205cebf7892654d70b4d33bb305cd880b9e69855bac8bc010f512972a286d 1222 testing/binary-arm64/Packages
- 913a9a6ba0d9d09bf208432d394b375d16f3d40d93f4dae5b7717e6cd2b4d55e 659 testing/binary-arm64/Packages.gz
+ 1015baccc26ad12cee15f67fe3149d9d59f645166c3b1bde8cd24507ae9f3511 1265 testing/binary-arm64/Packages
+ bef52888359047d60df8b0ca872e7e3e5bfc4e3db68fdec2cda9c92722f6081a 665 testing/binary-arm64/Packages.gz
  645e2240bbb3cab51a3a462f1abe2af71ebad883b944310bd55e12e6d1b02a68 175 testing/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEExkMhO0pJDTEI9HSQTVvGinrPa2gFAmk5WUsACgkQTVvGinrP
-a2j9jxAAmSoR6bD1vspUyPdJ1m2kazOpZFIqDv/dNx0Fq4tkRX+gqlimFs2AdXTR
-GbmjOmot2XVOBCtzgTBYlHb2cyi5mwIV3m62/q+4SXV6DbYjtrl7vZ9pkHwO6Cxl
-rXy/h2N1cKYILfLDiA/xA66C+vA7Z9T6sT0wxwXN/oum1SbqT+WO6I85qx2SfO9n
-v8d4UUKOfQibpcFesXTL+P6RmeSm2zttJ35vy1nJgqjWenevr9mINlb4sMD5x5wB
-ALRcMNVNhggPHBIYskzgg9OJIe952fFXRH+A7GooSKoW9dyGyijupwiehCz59lMh
-xsHAvyzYPxeUnOAxGb5oK+WHLejV4mymiWE2pahrKl3DBFW9ziADU6kYUi+hXGVT
-/QPnAdNWqZwv1E7U6v1oe4XYaqxui7P4kZSR6gaJBZ1OAHMZTSOHpVULJvneiauB
-A9rZ1KxhjKmRzDJYI6ACWIHV4YLVItqDRMpqyH5GITTyZceCE3jBeCsQVVtW1S/R
-k9Zn+grXpJgK357XNVb29xbvwG20I/Ig9v31vKbmi319C5zajhU72XD6/of+/ACz
-HKs6dxGYdOjeyaIWSX8bkrOoPoY8Dfw9OcDFEkncAtwAWrBedP1zcmm9mx1ZaFmg
-m4TukR+sU20dnyz20zsboLqgEEEdD2qRmRLPQ4aDvAZbGpfzH34=
-=XmIg
+iQIzBAEBCgAdFiEExkMhO0pJDTEI9HSQTVvGinrPa2gFAmk7+/sACgkQTVvGinrP
+a2iPwA/+P8p3hMf/afT5CnxQ/4ZSvdtU2LEPtsraIz+t6FLE1Oj0JUvuriQ66Q7c
+NHn2ibtIginonO7tZ3FtqbHug0j0qt+6YV2SKGNbiqP3xhsbWMys1wKcc5QXM6Z9
+oU8QI2UHLOok+gF0dyY8gzpmMw2fHxgxMPVoevseI8b6Yw6pYUBp1hqpcn+2hhHx
+HO8q4YuIrsUlz/ggNda3SI7xc/a1CFpvw1AG/m53PUDvotpLTGiJ8oy1tYo9EZLd
+aawsyNzKr/+DQLj0HQUGbPFnrSHKG3YIz8B8rNOr8HD8nwi09tUnoblM4a56HHlT
+D1op/E6Di+3bz7Kc85YBG8HYHiBUHMVb5APKDyfxDWK4bVp9FFDjMfUkDEZV7v9S
+u6jVcH6an6Rkr9MC6K8Z5OmcPc+xdyZLN+JFfmqTICDbzPqG8vCjyEiw40D/7Bid
+MwL4cLV85FUyko9F2NZqHKEnqqsT7cST+tPrISTwuz1/kFd37bXANcDxfs2VouHY
+a8c+O5OTIbVOzuWj/pzVeZ4SzmBPQg4woUvbh7x31qJHmI887Fk8hE2OipxCe+e0
+8BOcTeU5gwEywhfXHj3ALsjoDwgD8o0PjZE/rOzMIl9dgiE3L3+vV4oCGQQgP6s5
+ETU0079wc4ga9kXO6ZjmaLu0vEtA1FQ/kWYmQ2nWjGjsDIgnf60=
+=peO2
 -----END PGP SIGNATURE-----

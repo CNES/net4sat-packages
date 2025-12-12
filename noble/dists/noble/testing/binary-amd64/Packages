@@ -298,18 +298,18 @@ MD5sum: 694f5c4a8196eb74431db136d85703d2
 Description: Script to configure OpenSAND entity network (sat, gw, st, gw_net_acc or gw_phy)
 
 Package: pepsal
-Version: 2.0.1~dev~1753278737
+Version: 2.0.2~dev~1765538673
 Architecture: amd64
 Maintainer: PEPSal Maintainers <admin@pepsal.org>
-Installed-Size: 82
-Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Installed-Size: 138
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), lsb-base (>= 3.2-14), rsyslog, logrotate
 Priority: optional
 Section: misc
-Filename: pool/testing/p/pepsal/pepsal_2.0.1~dev~1753278737_amd64.deb
-Size: 26154
-SHA256: bb67cf1d28a08d2d46b1799b7143892bbfec4e65567b91e93c5d10cde0e9d802
-SHA1: 26ad8e66da85cc58d1da6495f402bac45e764ce5
-MD5sum: 09afe92ed2ef524cae1788b983c56015
+Filename: pool/testing/p/pepsal/pepsal_2.0.2~dev~1765538673_amd64.deb
+Size: 47374
+SHA256: 9e00219d506e80d1f4bd8e80141d2d4da6d31d5377f773ae2bf623a4005ccfa0
+SHA1: 36fc065c3c57ebe780b4ac15b39d0e734ac0493c
+MD5sum: 85d26d8f24008415be70158abb4cbe5b
 Description: PEPSal Performance Enhancing Proxy
   PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
   for satellite links.

@@ -15,18 +15,18 @@ MD5sum: 91a6d294cc2cec53c4bf7330f6843c24
 Description: OpenBACH collect-agent API
 
 Package: pepsal
-Version: 2.0.1~dev~1753278767
+Version: 2.0.2~dev~1765538708
 Architecture: arm64
 Maintainer: PEPSal Maintainers <admin@pepsal.org>
-Installed-Size: 82
-Depends: libc6 (>= 2.34), lsb-base (>= 3.2-14), rsyslog, logrotate
+Installed-Size: 126
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), lsb-base (>= 3.2-14), rsyslog, logrotate
 Priority: optional
 Section: misc
-Filename: pool/testing/p/pepsal/pepsal_2.0.1~dev~1753278767_arm64.deb
-Size: 25878
-SHA256: dd5fea91d18ba03c4f355acd1e639feb4573f1af5232047e46e6be9a27bf212e
-SHA1: 4f935ee9bceb843f5afb318e03a5f5695ef90c43
-MD5sum: 5aa72535e511d3b826f41a6202f2388d
+Filename: pool/testing/p/pepsal/pepsal_2.0.2~dev~1765538708_arm64.deb
+Size: 45560
+SHA256: 81466965cea7c58ce7b2eae3b92863d757662208e7fb4a9042a7569b73f6603c
+SHA1: 015c4459ccdb6628f0dc900f99f4365eddc5559b
+MD5sum: fe752016f91e159a8fe3e1ada5da1572
 Description: PEPSal Performance Enhancing Proxy
   PEPSal is an open-source TCP Performance Enhancing Proxy (PEP)
   for satellite links.
