@@ -565,6 +565,21 @@ Description: Return Link Encapsulation library and headers for Linux
  A C library that implements the RLE (Return Link Encapsulation) protocol
  as defined by ETSI TS 103 179 V1.1.1 (2013-08).
 
+Package: openbach-api
+Version: 3.11.5
+Architecture: amd64
+Maintainer: OpenBACH Maintainers <admin@openbach.org>
+Installed-Size: 746
+Depends: python3-matplotlib, python3-pandas, python3-requests, python3:any (>= 3.8~)
+Priority: optional
+Section: misc
+Filename: pool/stable/o/openbach-api/openbach-api_3.11.5_amd64.deb
+Size: 74652
+SHA256: d50d2a8c928ac33d6faa33f37c9cd7d8f696663d6886d618c2b3c2b1f1c02105
+SHA1: e7934bb0867d6474cf889052f16be737b57e7a76
+MD5sum: af00f7c7669528cda89563a8bcb0c22e
+Description: APIs to access and manipulate OpenBACH data
+
 Package: opensand
 Source: opensand-meta
 Version: 8.2.0
